@@ -684,3 +684,60 @@ text-align:center;
 
 
 }
+.highlights{
+
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:25px;
+
+margin-top:40px;
+
+
+}
+
+
+
+.highlights div{
+
+
+background:#ffffff;
+
+padding:25px;
+
+border-radius:15px;
+
+box-shadow:
+
+0 10px 20px rgba(0,0,0,.1);
+
+
+}
+
+
+
+.highlights h3{
+
+
+color:#0077b6;
+
+
+}
+
+
+
+@media(max-width:900px){
+
+
+.highlights{
+
+
+grid-template-columns:1fr;
+
+
+}
+
+
+}
