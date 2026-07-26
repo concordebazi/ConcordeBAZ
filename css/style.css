@@ -1398,3 +1398,52 @@ grid-template-columns:1fr;
 
 
 }
+/* ==========================================
+   DARK MODE
+========================================== */
+
+
+.dark-mode{
+
+
+background:#001219;
+
+color:white;
+
+
+}
+
+
+
+.dark-mode .section{
+
+
+background:#001219;
+
+
+}
+
+
+
+.dark-mode .card,
+.dark-mode .skill-card,
+.dark-mode .project-card,
+.dark-mode .education-card{
+
+
+background:#003049;
+
+color:white;
+
+
+}
+
+
+
+.dark-mode h2{
+
+
+color:#00b4d8;
+
+
+}
