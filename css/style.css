@@ -1297,3 +1297,104 @@ border-radius:20px;
 
 
 }
+/* ==========================================
+   EDUCATION SECTION
+========================================== */
+
+
+.education-grid{
+
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:30px;
+
+margin-top:40px;
+
+
+}
+
+
+
+.education-card{
+
+
+background:white;
+
+padding:35px;
+
+border-radius:20px;
+
+
+box-shadow:
+
+0 10px 25px rgba(0,0,0,.15);
+
+
+border-left:6px solid #00b4d8;
+
+
+}
+
+
+
+.education-card h3{
+
+
+color:#0077b6;
+
+margin-bottom:15px;
+
+
+}
+
+
+
+.education-card h4{
+
+
+color:#003049;
+
+margin-bottom:15px;
+
+
+}
+
+
+
+
+
+
+/* ==========================================
+   CV BUTTONS
+========================================== */
+
+
+.cv-buttons{
+
+
+text-align:center;
+
+margin-top:40px;
+
+
+}
+
+
+
+
+@media(max-width:900px){
+
+
+.education-grid{
+
+
+grid-template-columns:1fr;
+
+
+}
+
+
+}
