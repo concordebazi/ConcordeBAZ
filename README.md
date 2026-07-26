@@ -83,7 +83,7 @@ University of Rwanda
 
 Visit my professional portfolio:
 
-https://concordebazimaziki.github.io
+https://concordeBAZ.github.io
 
 
 ---
