@@ -885,3 +885,107 @@ margin-bottom:10px;
 
 }
 
+/* ==========================================
+   SKILLS DASHBOARD
+========================================== */
+
+
+.skills-dashboard{
+
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:30px;
+
+margin-top:40px;
+
+
+}
+
+
+
+.skill-card{
+
+
+background:white;
+
+padding:30px;
+
+border-radius:20px;
+
+
+box-shadow:
+
+0 10px 25px rgba(0,0,0,.12);
+
+
+border-top:5px solid #00b4d8;
+
+
+transition:.3s;
+
+
+}
+
+
+
+.skill-card:hover{
+
+
+transform:translateY(-10px);
+
+
+}
+
+
+
+.skill-card h3{
+
+
+color:#003049;
+
+margin-bottom:20px;
+
+font-size:22px;
+
+
+}
+
+
+
+.skill-card ul{
+
+
+padding-left:20px;
+
+
+}
+
+
+
+.skill-card li{
+
+
+margin-bottom:10px;
+
+
+}
+
+
+
+
+@media(max-width:900px){
+
+
+.skills-dashboard{
+
+
+grid-template-columns:1fr;
+
+
+}
+
+
+}
