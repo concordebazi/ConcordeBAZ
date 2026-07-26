@@ -1447,3 +1447,63 @@ color:#00b4d8;
 
 
 }
+/* ==========================================
+   STATISTICS
+========================================== */
+
+
+.stats-grid{
+
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:25px;
+
+
+}
+
+
+
+.stats-grid div{
+
+
+background:#0077b6;
+
+color:white;
+
+padding:30px;
+
+border-radius:20px;
+
+text-align:center;
+
+
+}
+
+
+
+.stats-grid h3{
+
+
+font-size:45px;
+
+
+}
+
+
+
+@media(max-width:900px){
+
+
+.stats-grid{
+
+
+grid-template-columns:repeat(2,1fr);
+
+
+}
+
+
+}
