@@ -1,51 +1,73 @@
-# Concorde Bazimaziki
+# 👋 Hi, I'm Concorde Bazimaziki
 
 ## GIS & Geomatics Engineer | Map Engineer | Hydrographic Data Processing Specialist
 
-Welcome to my professional portfolio.
+Welcome to my GitHub profile.
 
-I specialize in:
+I am a geospatial professional specialized in:
 
-- Geographic Information Systems (GIS)
-- Geomatics Engineering
-- Cartography and Map Engineering
-- Hydrographic Data Processing
-- Marine Geospatial Data
-- Spatial Data Management
+🗺 Geographic Information Systems (GIS)  
+🧭 Map Engineering & Cartography  
+🌊 Hydrographic Data Processing  
+🌍 Spatial Data Management  
+🐍 Python for GIS Automation  
 
 
-## Technical Expertise
+---
 
-### GIS
+# 🚀 Professional Expertise
+
+
+## GIS & Geospatial Technologies
 
 - ArcGIS Pro
 - QGIS
 - Spatial Analysis
-- Cartography
 - Geodatabases
+- Cartographic Production
+- Coordinate Reference Systems
 
 
-### Hydrography
+## Hydrographic Survey & Marine Data
 
 - CARIS HIPS
 - QPS Qimera
 - FMGT
-- MBES Processing
-- Bathymetry
-- Backscatter
+- Multibeam Echo Sounder (MBES)
+- Bathymetry Processing
+- Backscatter Analysis
 
 
-### Programming & Data
+## Programming & Web GIS
 
-- Python for GIS
-- SQL
-- PostGIS
-- HTML
-- CSS
-- JavaScript
+- Python
+- GeoPandas
+- Shapely
+- Leaflet
+- GeoJSON
+- HTML / CSS / JavaScript
 
 
-## Education
+---
+
+# 💼 Professional Experience
+
+🌊 **Ocean Infinity**  
+Hydrographic Data Processor
+
+🗺 **Swedish Maritime Administration**  
+Map Engineer
+
+🌍 **Rwanda Mining, Petroleum and Gas Board**  
+GIS & Geospatial Officer
+
+🏙 **GIS Engineer Experience**  
+Spatial analysis, mapping and geodata management
+
+
+---
+
+# 🎓 Education
 
 🎓 Master of Science in Geomatics  
 Lund University, Sweden
@@ -55,26 +77,29 @@ Lund University, Sweden
 University of Rwanda
 
 
-## Professional Experience
+---
 
-🌊 Ocean Infinity  
-Hydrographic Data Processor
+# 🌐 Portfolio Website
 
-
-🗺 Swedish Maritime Administration  
-Map Engineer
-
-
-🏙 Älvstranden Utveckling AB  
-GIS Engineer
-
-
-🌍 Rwanda Mining, Petroleum & Gas Board  
-GIS & Geospatial Officer
-
-
-## Portfolio Website
-
-Visit:
+Visit my professional portfolio:
 
 https://concordebazimaziki.github.io
+
+
+---
+
+# 📌 Current Learning Goals
+
+- Advanced Python for GIS
+- Web GIS development
+- Spatial databases
+- Geospatial automation
+- Remote sensing applications
+
+
+---
+
+# 📫 Contact
+
+Email:
+concorde2007@gmail.com
