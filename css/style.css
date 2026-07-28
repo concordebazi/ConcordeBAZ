@@ -1646,3 +1646,22 @@ font-size:18px;
 
 
 }
+.footer-content{
+
+text-align:center;
+
+padding:40px;
+
+line-height:1.8;
+
+}
+
+footer{
+
+background:#001219;
+
+color:white;
+
+margin-top:80px;
+
+}
