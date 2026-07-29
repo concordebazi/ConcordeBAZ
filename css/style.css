@@ -1899,3 +1899,47 @@ padding-left:20px;
 margin-bottom:10px;
 
 }
+/* =========================
+PROJECT BUTTONS
+========================= */
+
+
+.project-buttons{
+
+display:flex;
+
+justify-content:center;
+
+gap:25px;
+
+flex-wrap:wrap;
+
+margin-top:30px;
+
+}
+
+
+.btn{
+
+display:inline-block;
+
+background:#0077b6;
+
+color:white;
+
+padding:14px 30px;
+
+border-radius:30px;
+
+text-decoration:none;
+
+transition:.3s;
+
+}
+
+
+.btn:hover{
+
+transform:translateY(-3px);
+
+}
