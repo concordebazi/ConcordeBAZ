@@ -1665,3 +1665,56 @@ color:white;
 margin-top:80px;
 
 }
+/* Hydrographic Workflow */
+
+.workflow-container{
+
+max-width:900px;
+
+margin:40px auto;
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+
+.workflow-step{
+
+background:white;
+
+padding:25px;
+
+margin:10px;
+
+width:90%;
+
+border-radius:15px;
+
+border-left:6px solid #00b4d8;
+
+box-shadow:
+0 10px 25px rgba(0,0,0,.15);
+
+}
+
+
+.workflow-step h3{
+
+margin-bottom:10px;
+
+}
+
+
+.workflow-arrow{
+
+font-size:35px;
+
+font-weight:bold;
+
+color:#00b4d8;
+
+}
