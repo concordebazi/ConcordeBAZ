@@ -65,7 +65,6 @@ Nautical Mapping
 
 <br><br>
 
-🌊 Ocean Infinity
 
 <br>
 Hydrographic Data Processor
