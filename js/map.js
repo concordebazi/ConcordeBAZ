@@ -155,6 +155,41 @@ icon: mapIcon
 
 sweden.bindPopup(`
 
+<div class="popup-card">
+
+<img src="images/map/swedish-maritime.jpg"
+style="width:100%;
+border-radius:8px;
+margin-bottom:10px;">
+
+<h3>🇸🇪 Norrköping, Sweden</h3>
+
+<b>Swedish Maritime Administration</b>
+
+<br>
+
+Map Engineer
+
+<hr>
+
+✔ Hydrographic Databases
+
+<br>
+
+✔ GIS & Cartography
+
+<br>
+
+✔ Nautical Chart Production
+
+<br>
+
+✔ Spatial Data Management
+
+</div>
+
+`);
+
 <h3>🇸🇪 Norrköping, Sweden</h3>
 
 <b>Professional Experience</b>
