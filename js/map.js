@@ -256,6 +256,37 @@ icon: geologyIcon
 
 rwanda.bindPopup(`
 
+<div class="popup-card">
+
+<img src="images/map/rwanda-gis.jpg"
+style="width:100%;
+border-radius:8px;
+margin-bottom:10px;">
+
+<h3>🇷🇼 Rwanda</h3>
+
+<b>GIS & Geological Mapping</b>
+
+<hr>
+
+✔ Geological Mapping
+
+<br>
+
+✔ Mineral Resource Mapping
+
+<br>
+
+✔ GIS Database Management
+
+<br>
+
+✔ Spatial Analysis
+
+</div>
+
+`);
+
 <h3>🇷🇼 Rwanda</h3>
 
 <b>GIS Experience</b>
