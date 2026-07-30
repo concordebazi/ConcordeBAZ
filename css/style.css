@@ -2555,3 +2555,42 @@ box-shadow:
 0 10px 25px rgba(0,0,0,.15);
 
 }
+/* ==========================================
+   MAP POPUP STYLING
+========================================== */
+
+.popup-card{
+
+max-width:260px;
+
+font-family:Arial, sans-serif;
+
+}
+
+.popup-card img{
+
+width:100%;
+
+border-radius:10px;
+
+margin-bottom:10px;
+
+}
+
+.popup-card h3{
+
+color:#0077b6;
+
+margin-bottom:8px;
+
+}
+
+.popup-card hr{
+
+margin:10px 0;
+
+border:none;
+
+border-top:1px solid #ddd;
+
+}
