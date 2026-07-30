@@ -334,6 +334,41 @@ icon: shipIcon
 
 offshore.bindPopup(`
 
+<div class="popup-card">
+
+<img src="images/map/ocean-infinity.jpg"
+style="width:100%;
+border-radius:8px;
+margin-bottom:10px;">
+
+<h3>🌊 Offshore Projects</h3>
+
+<b>Ocean Infinity</b>
+
+<hr>
+
+✔ Hydrographic Data Processing
+
+<br>
+
+✔ MBES
+
+<br>
+
+✔ CARIS HIPS
+
+<br>
+
+✔ Qimera
+
+<br>
+
+✔ FMGT
+
+</div>
+
+`);
+
 <h3> 🌊 Ocean Infinity </h3>
 <br>
 
