@@ -2433,3 +2433,19 @@ font-weight:600;
 color:#005f73;
 
 }
+/* ==========================================
+   UNIVERSITY LOGOS
+========================================== */
+
+
+.university-logo{
+
+height:80px;
+
+max-width:220px;
+
+object-fit:contain;
+
+margin-bottom:25px;
+
+}
