@@ -22,7 +22,62 @@ L.tileLayer(
     }
 ).addTo(map);
 
+// ==========================================
+// PROFESSIONAL MAP ICONS
+// ==========================================
 
+
+var mapIcon = L.icon({
+
+iconUrl:
+'images/icons/map-icon.png',
+
+iconSize:
+[45,45],
+
+iconAnchor:
+[22,45],
+
+popupAnchor:
+[0,-40]
+
+});
+
+
+
+var geologyIcon = L.icon({
+
+iconUrl:
+'images/icons/geology-icon.png',
+
+iconSize:
+[45,45],
+
+iconAnchor:
+[22,45],
+
+popupAnchor:
+[0,-40]
+
+});
+
+
+
+var shipIcon = L.icon({
+
+iconUrl:
+'images/icons/ship-icon.png',
+
+iconSize:
+[45,45],
+
+iconAnchor:
+[22,45],
+
+popupAnchor:
+[0,-40]
+
+});
 
 // ==========================================
 // SWEDEN - MAP ENGINEERING & HYDROGRAPHY
