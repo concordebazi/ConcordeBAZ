@@ -34,11 +34,15 @@ expandedImage.src=this.href;
 });
 
 
+if(closeButton){
+
 closeButton.onclick=function(){
 
 modal.style.display="none";
 
 };
+
+}
 
 
 modal.onclick=function(e){
