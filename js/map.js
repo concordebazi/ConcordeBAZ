@@ -126,11 +126,7 @@ L.marker(location.coordinates)
 
 <p>${location.description}</p>
 
-`
-
-);
-
-// ==========================================
+`// ==========================================
 // PROFESSIONAL CAREER LOCATIONS
 // ==========================================
 
@@ -208,6 +204,9 @@ Mineral Resource Mapping
 
 Spatial Databases
 
-`);
+
+);
+
+
 
 });
