@@ -130,5 +130,84 @@ L.marker(location.coordinates)
 
 );
 
+// ==========================================
+// PROFESSIONAL CAREER LOCATIONS
+// ==========================================
+
+
+
+// Sweden
+
+var sweden = L.marker(
+[59.3293,18.0686]
+).addTo(map);
+
+
+sweden.bindPopup(`
+
+<h3>🇸🇪 Sweden</h3>
+
+<b>Professional Experience</b>
+
+<br><br>
+
+🌊 Ocean Infinity
+
+<br>
+
+Hydrographic Data Processor
+
+<br><br>
+
+🧭 Swedish Maritime Administration
+
+<br>
+
+Map Engineer
+
+<br><br>
+
+GIS • Hydrography • Cartography
+
+`);
+
+
+
+
+
+// Rwanda
+
+var rwanda = L.marker(
+[-1.9403,29.8739]
+).addTo(map);
+
+
+rwanda.bindPopup(`
+
+<h3>🇷🇼 Rwanda</h3>
+
+<b>Professional Experience</b>
+
+<br><br>
+
+🌍 Rwanda Mining, Petroleum & Gas Board
+
+<br>
+
+GIS / Geospatial Specialist
+
+<br><br>
+
+Geological Mapping
+
+<br>
+
+Mineral Resource Mapping
+
+<br>
+
+Spatial Databases
+
+`);
 
 });
