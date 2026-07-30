@@ -1127,7 +1127,7 @@ grid-template-columns:1fr;
 #career-map{
 
 
-height:500px;
+height:600px;
 
 width:100%;
 
@@ -1136,7 +1136,7 @@ border-radius:20px;
 
 box-shadow:
 
-0 10px 30px rgba(0,0,0,.2);
+0 10px 25px rgba(0,0,0,.15);
 
 
 margin-top:40px;
