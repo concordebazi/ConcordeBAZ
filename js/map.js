@@ -30,13 +30,13 @@ L.tileLayer(
 
 
 var sweden = L.marker(
-    [59.3293, 18.0686]
+    [58.5877, 16.1924]
 ).addTo(map);
 
 
 sweden.bindPopup(`
 
-<h3>🇸🇪 Sweden</h3>
+<h3>🇸🇪 Norrköping, Sweden</h3>
 
 <b>Professional Experience</b>
 
@@ -49,6 +49,22 @@ Map Engineer
 
 <br><br>
 
+Experience in:
+
+<br>
+GIS
+
+<br>
+Cartography
+
+<br>
+Hydrographic Data Management
+
+<br>
+Nautical Mapping
+
+<br><br>
+
 🌊 Ocean Infinity
 
 <br>
@@ -56,7 +72,16 @@ Hydrographic Data Processor
 
 <br><br>
 
-GIS • Hydrography • Cartography
+Marine Survey Data
+
+<br>
+MBES Processing
+
+<br>
+Bathymetry
+
+<br>
+Quality Control
 
 `);
 
