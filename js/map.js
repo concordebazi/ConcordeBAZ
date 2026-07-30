@@ -141,7 +141,15 @@ popupAnchor:
 
 
 var sweden = L.marker(
-    [58.5877, 16.1924]
+
+[58.5877,16.1924],
+
+{
+
+icon: mapIcon
+
+}
+
 ).addTo(map);
 
 
@@ -198,7 +206,15 @@ Quality Control
 
 
 var rwanda = L.marker(
-    [-1.9403, 29.8739]
+
+[-1.9403,29.8739],
+
+{
+
+icon: geologyIcon
+
+}
+
 ).addTo(map);
 
 
@@ -237,7 +253,15 @@ Mineral Resource Mapping
 
 
 var offshore = L.marker(
-    [57.7, 11.9]
+
+[57.7,11.9],
+
+{
+
+icon: shipIcon
+
+}
+
 ).addTo(map);
 
 
