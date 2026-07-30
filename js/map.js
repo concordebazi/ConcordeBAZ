@@ -126,13 +126,7 @@ L.marker(location.coordinates)
 
 <p>${location.description}</p>
 
-`// ==========================================
-// PROFESSIONAL CAREER LOCATIONS
-// ==========================================
 
-
-
-// Sweden
 
 var sweden = L.marker(
 [59.3293,18.0686]
