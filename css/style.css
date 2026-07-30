@@ -2449,3 +2449,91 @@ object-fit:contain;
 margin-bottom:25px;
 
 }
+/* ==========================================
+   EDUCATION SECTION
+========================================== */
+
+
+.education-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(300px,1fr));
+
+gap:30px;
+
+max-width:1100px;
+
+margin:50px auto;
+
+}
+
+
+
+.education-card{
+
+background:white;
+
+padding:35px;
+
+border-radius:20px;
+
+box-shadow:
+0 10px 25px rgba(0,0,0,.15);
+
+border-left:6px solid #00b4d8;
+
+}
+
+
+
+.university-logo{
+
+height:90px;
+
+max-width:220px;
+
+object-fit:contain;
+
+margin-bottom:25px;
+
+}
+
+
+
+.education-card h3{
+
+color:#0077b6;
+
+}
+
+
+
+.education-tags{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:10px;
+
+margin-top:20px;
+
+}
+
+
+
+.education-tags span{
+
+background:#eef7fb;
+
+padding:8px 14px;
+
+border-radius:20px;
+
+font-size:.85rem;
+
+font-weight:600;
+
+}
