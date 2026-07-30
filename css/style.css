@@ -2195,3 +2195,65 @@ margin-left:30px;
 
 
 }
+/* ==========================================
+   SKILLS DASHBOARD
+========================================== */
+
+
+.skills-dashboard{
+
+max-width:900px;
+
+margin:50px auto;
+
+}
+
+
+
+.skill-item{
+
+margin-bottom:30px;
+
+}
+
+
+
+.skill-title{
+
+display:flex;
+
+justify-content:space-between;
+
+font-weight:600;
+
+margin-bottom:10px;
+
+}
+
+
+
+.skill-bar{
+
+height:14px;
+
+background:#e9ecef;
+
+border-radius:20px;
+
+overflow:hidden;
+
+}
+
+
+
+.skill-progress{
+
+height:100%;
+
+background:#00b4d8;
+
+border-radius:20px;
+
+transition:1s;
+
+}
