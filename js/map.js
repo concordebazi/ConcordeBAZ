@@ -42,7 +42,7 @@ sweden.bindPopup(`
 
 <br><br>
 
-🧭 Swedish Maritime Administration
+<h3>🧭 Swedish Maritime Administration</h3>
 
 <br>
 Map Engineer
