@@ -140,10 +140,8 @@ var offshore = L.marker(
 
 offshore.bindPopup(`
 
-<h3>🌊 Offshore Hydrographic Projects</h3>
+<h3> 🌊 Ocean Infinity </h3>
 <br>
-
-🌊 Ocean Infinity
 
 <br>
 Hydrographic Data Processor
