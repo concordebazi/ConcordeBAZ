@@ -245,29 +245,9 @@ margin-bottom:10px;">
 
 `);
 
-<h3>🇷🇼 Rwanda</h3>
 
-<b>GIS Experience</b>
-
-<br><br>
-
-🌍 Rwanda Mining, Petroleum & Gas Board
-
-<br>
-GIS / Geospatial Specialist
-
-<br><br>
-
-Geological Mapping
-
-<br>
-Spatial Databases
-
-<br>
-Mineral Resource Mapping
 
 `);
-
 
 
 
@@ -275,20 +255,12 @@ Mineral Resource Mapping
 // OFFSHORE HYDROGRAPHIC EXPERIENCE
 // ==========================================
 
-
 var offshore = L.marker(
-
-[57.7,11.9],
-
-{
-
-icon: shipIcon
-
-}
-
+    [57.7,11.9],
+    {
+        icon: shipIcon
+    }
 ).addTo(map);
-
-
 
 offshore.bindPopup(`
 
@@ -326,33 +298,6 @@ margin-bottom:10px;">
 </div>
 
 `);
-
-<h3> 🌊 Ocean Infinity </h3>
-<br>
-
-<br>
-Hydrographic Data Processor
-
-<br>
-
-<b>Marine Geospatial Data Processing</b>
-
-<br><br>
-
-MBES Processing
-
-<br>
-Bathymetry
-
-<br>
-Backscatter
-
-<br>
-Quality Control
-
-`);
-
-
 
 
 // ==========================================
