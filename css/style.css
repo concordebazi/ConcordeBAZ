@@ -2594,3 +2594,42 @@ border:none;
 border-top:1px solid #ddd;
 
 }
+.project-page{
+
+max-width:900px;
+
+margin:50px auto;
+
+padding:30px;
+
+background:white;
+
+border-radius:15px;
+
+box-shadow:
+0 10px 25px rgba(0,0,0,.15);
+
+}
+
+
+.project-page h1{
+
+color:#0077b6;
+
+}
+
+
+.project-page h3{
+
+margin-top:30px;
+
+color:#023e8a;
+
+}
+
+
+.project-page li{
+
+margin:10px 0;
+
+}
