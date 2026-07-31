@@ -326,7 +326,9 @@ color:'#0077b6',
 
 weight:4,
 
-dashArray:'10,10'
+opacity:0.8,
+
+dashArray:'8,12'
 
 }
 
