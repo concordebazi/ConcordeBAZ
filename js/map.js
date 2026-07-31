@@ -190,48 +190,6 @@ Map Engineer
 
 `);
 
-<h3>🇸🇪 Norrköping, Sweden</h3>
-
-<b>Professional Experience</b>
-
-<br><br>
-
-<h3>🧭 Swedish Maritime Administration</h3>
-
-<br>
-Map Engineer
-
-<br><br>
-
-Experience in:
-
-<br>
-GIS
-
-<br>
-Cartography
-
-<br>
-Hydrographic Data Management
-
-<br>
-Nautical Mapping
-
-<br><br>
-
-Marine Survey Data
-
-<br>
-MBES Processing
-
-<br>
-Bathymetry
-
-<br>
-Quality Control
-
-`);
-
 
 
 
