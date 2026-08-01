@@ -10,24 +10,62 @@
 
 
 <title>
-Concorde Bazimaziki | GIS- och Geomatikingengör
+Concorde Bazimaziki | GIS & Geomatics Engineer
 </title>
 
 
 <meta name="description"
 content="
-Concorde Bazimaziki - GIS- och geomatikingengör, kartingenjör och specialist inom hydrografisk databehandling.
+GIS & Geomatics Engineer, Map Engineer and Hydrographic Data Processing Specialist.
+Expertise in GIS, cartography, marine geospatial data and hydrographic surveying.
 ">
 
 
 <link rel="stylesheet" href="../css/style.css">
+<!-- Leaflet Map -->
 
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<meta name="author"
+content="Concorde Bazimaziki">
+
+
+<meta name="keywords"
+content="
+GIS Engineer,
+Geomatics Engineer,
+Map Engineer,
+Hydrographic Data Processing,
+Cartography,
+QGIS,
+ArcGIS,
+CARIS HIPS,
+Sweden
+">
+
+
+<meta property="og:title"
+content="
+Concorde Bazimaziki | GIS & Geomatics Engineer
+">
+
+
+<meta property="og:description"
+content="
+GIS, mapping, hydrography and marine geospatial expertise.
+">
 
 </head>
 
 
+
 <body>
 
+
+<!-- NAVIGATION -->
 
 <header>
 
@@ -36,45 +74,54 @@ Concorde Bazimaziki - GIS- och geomatikingengör, kartingenjör och specialist i
 
 
 <div class="logo">
+
 CB
+
 </div>
 
 
+</ul>
+  <li>
 
+<button id="dark-toggle">
+
+🌙
+
+</button>
+
+</li>
 <ul class="nav-links">
 
 
 <li>
 <a href="#home">
-Hem
+Home
 </a>
 </li>
 
 
 <li>
 <a href="#about">
-Om mig
+About
 </a>
 </li>
 
 
 <li>
 <a href="#experience">
-Erfarenhet
+Experience
 </a>
 </li>
-
+<li><a href="#featured-projects">Projects</a></li>
 
 <li>
 <a href="#skills">
-Kompetens
+Skills
 </a>
 </li>
-
-
 <li>
-<a href="#projects">
-Projekt
+<a href="#education">
+Education
 </a>
 </li>
 
@@ -85,15 +132,48 @@ CV
 </a>
 </li>
 
+<li>
+<a href="#projects">
+Projects
+</a>
+</li>
+<li>
+<a href="projects/index.html">Projects</a>
+</li>
 
 <li>
-<a href="../index.html">
-🇬🇧 English
+<a href="#contact">
+Contact
 </a>
 </li>
 
+<li>
 
+<a href="sv/index.html">
 
+🇸🇪 Svenska
+
+</a>
+
+</li>
+<li>
+
+<a href="services/index.html">
+
+Services
+
+</a>
+
+</li>
+<li>
+
+<a href="contact/index.html">
+
+Contact
+
+</a>
+
+</li>
 </ul>
 
 
@@ -104,6 +184,9 @@ CV
 
 
 
+
+
+<!-- HERO SECTION -->
 
 
 <section id="home" class="hero">
@@ -120,9 +203,9 @@ Concorde Bazimaziki
 
 
 
-<h2>
+<h2 id="typing-title">
 
-GIS- och Geomatikingengör
+GIS & Geomatics Engineer
 
 </h2>
 
@@ -130,29 +213,44 @@ GIS- och Geomatikingengör
 
 <h3>
 
-Kartingenjör | Specialist inom hydrografisk databehandling
+Map Engineer | Hydrographic Data Processing Specialist
 
 </h3>
 
 
 
+
 <p>
 
-Kartläggning av världen.
-Förståelse av havsbotten.
-Tillförlitliga geospatiala lösningar.
+Specialized in GIS, cartography, geospatial data management,
+hydrographic data processing and marine mapping solutions.
 
 </p>
 
 
 
-<a href="../cv/Concorde_Bazimaziki_CV_SV.pdf"
+
+<div class="buttons">
+
+
+<a href="cv/Concorde_Bazimaziki_CV_EN.pdf"
 class="btn">
 
-Ladda ner CV
+Download CV
 
 </a>
 
+
+
+<a href="#contact"
+class="btn second">
+
+Contact Me
+
+</a>
+
+
+</div>
 
 
 </div>
@@ -164,21 +262,51 @@ Ladda ner CV
 
 
 
+<!-- ABOUT PREVIEW -->
+
+
+<!-- ================= ABOUT SECTION ================= -->
 
 
 <section id="about" class="section">
 
 
 <h2>
-Om mig
+About Me
 </h2>
 
 
+
+<div class="about-container">
+
+
+
+<div class="profile-image">
+
+
+<img src="images/profile.jpg"
+alt="Concorde Bazimaziki - GIS and Geomatics Engineer">
+
+
+</div>
+
+
+
+
+
+<div class="about-text">
+
+
+
+<h3>
+GIS & Geomatics Engineer | Map Engineer
+</h3>
+
+
+
 <p>
 
-Jag är GIS- och geomatikingengör med en masterexamen i geomatik från Lunds universitet.
-
-Jag har erfarenhet inom GIS, kartografi, geodatahantering, hydrografisk databehandling och marina geospatiala tillämpningar.
+I am a GIS and Geomatics Engineer with a Master's degree in Geomatics from Lund University, Sweden, specializing in geographic information systems, cartography, spatial data management, and marine geospatial applications.
 
 </p>
 
@@ -186,30 +314,931 @@ Jag har erfarenhet inom GIS, kartografi, geodatahantering, hydrografisk databeha
 
 <p>
 
-Min kompetens omfattar geografiska informationssystem, kartproduktion, hydrografiska databaser och analys av komplexa geodata.
+My professional experience combines GIS engineering, map production, hydrographic data processing, and geospatial analysis across public and private sectors.
 
 </p>
 
+
+
+<p>
+
+I have worked with geographic databases, digital mapping, hydrographic survey data, bathymetry, marine cartography, and spatial information solutions.
+
+</p>
+
+
+
+<p>
+
+My goal is to transform complex geospatial data into accurate, reliable, and meaningful information that supports decision-making.
+
+</p>
+
+
+
+</div>
+
+
+</div>
+
+
+</section>
+  <!-- ==========================================
+     PROFESSIONAL CAREER TIMELINE
+========================================== -->
+
+<section id="career-timeline" class="section">
+
+
+<h2>
+Professional Career Journey
+</h2>
+
+
+<p class="section-intro">
+
+My professional journey combines GIS, geomatics, cartography,
+hydrography and marine geospatial data processing.
+
+</p>
+
+
+
+<div class="timeline">
+
+
+
+<div class="timeline-item">
+
+<div class="timeline-date">
+
+2025 - Present
+
+</div>
+
+
+<div class="timeline-content">
+
+<h3>
+🌊 Ocean Infinity
+</h3>
+
+<h4>
+Hydrographic Data Processor
+</h4>
+
+
+<p>
+
+Processing offshore hydrographic survey data,
+including MBES, bathymetry, backscatter and quality control workflows.
+
+</p>
+
+
+<div class="project-tags">
+
+<span>CARIS HIPS</span>
+
+<span>Qimera</span>
+
+<span>FMGT</span>
+
+<span>MBES</span>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="timeline-item">
+
+<div class="timeline-date">
+
+Previous Experience
+
+</div>
+
+
+<div class="timeline-content">
+
+<h3>
+🧭 Swedish Maritime Administration
+</h3>
+
+
+<h4>
+Map Engineer
+</h4>
+
+
+<p>
+
+Worked with hydrographic information, GIS,
+cartography, spatial databases and marine mapping products.
+
+</p>
+
+
+<div class="project-tags">
+
+<span>GIS</span>
+
+<span>Cartography</span>
+
+<span>Hydrography</span>
+
+<span>Mapping</span>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="timeline-item">
+
+<div class="timeline-date">
+
+Previous Experience
+
+</div>
+
+
+<div class="timeline-content">
+
+<h3>
+🌍 Rwanda Mining, Petroleum & Gas Board
+</h3>
+
+
+<h4>
+GIS / Geospatial Specialist
+</h4>
+
+
+<p>
+
+Worked with geological mapping, mineral resources,
+spatial databases and GIS-based analysis.
+
+</p>
+
+
+<div class="project-tags">
+
+<span>GIS</span>
+
+<span>Geology</span>
+
+<span>Spatial Data</span>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="timeline-item">
+
+<div class="timeline-date">
+
+Education
+
+</div>
+
+
+<div class="timeline-content">
+
+<h3>
+🎓 Master of Geomatics
+</h3>
+
+
+<h4>
+Lund University
+</h4>
+
+
+<p>
+
+Advanced studies in geospatial technologies,
+GIS, mapping and spatial information systems.
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+  <!-- ==========================================
+     PROFESSIONAL SKILLS DASHBOARD
+========================================== -->
+
+
+<section id="skills-dashboard" class="section">
+
+
+<h2>
+Professional Skills Dashboard
+</h2>
+
+
+<p class="section-intro">
+
+A combination of geospatial science, hydrography,
+cartography and data processing expertise.
+
+</p>
+
+
+
+<div class="skills-dashboard">
+
+
+
+<div class="skill-item">
+
+<div class="skill-title">
+
+<span>🌊 Hydrographic Data Processing</span>
+
+<span>90%</span>
+
+</div>
+
+<div class="skill-bar">
+
+<div class="skill-progress"
+style="width:90%">
+</div>
+
+</div>
+
+</div>
+
+
+
+
+<div class="skill-item">
+
+<div class="skill-title">
+
+<span>🗺 GIS & Geomatics</span>
+
+<span>90%</span>
+
+</div>
+
+<div class="skill-bar">
+
+<div class="skill-progress"
+style="width:90%">
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="skill-item">
+
+<div class="skill-title">
+
+<span>📐 Cartography & Map Engineering</span>
+
+<span>85%</span>
+
+</div>
+
+<div class="skill-bar">
+
+<div class="skill-progress"
+style="width:85%">
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="skill-item">
+
+<div class="skill-title">
+
+<span>📡 MBES & Marine Survey Data</span>
+
+<span>85%</span>
+
+</div>
+
+<div class="skill-bar">
+
+<div class="skill-progress"
+style="width:85%">
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="skill-item">
+
+<div class="skill-title">
+
+<span>🐍 Python for GIS</span>
+
+<span>65%</span>
+
+</div>
+
+<div class="skill-bar">
+
+<div class="skill-progress"
+style="width:65%">
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="skill-item">
+
+<div class="skill-title">
+
+<span>🗄 Spatial Databases</span>
+
+<span>80%</span>
+
+</div>
+
+<div class="skill-bar">
+
+<div class="skill-progress"
+style="width:80%">
+</div>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+  <!-- ==========================================
+     TECHNICAL TOOLBOX
+========================================== -->
+
+
+<section id="technical-toolbox" class="section">
+
+
+<h2>
+Technical Toolbox
+</h2>
+
+
+<p class="section-intro">
+
+Software, technologies and standards used throughout my
+GIS, hydrographic and geospatial career.
+
+</p>
+
+
+
+<div class="toolbox-grid">
+
+
+
+<!-- Hydrography -->
+
+<div class="toolbox-card">
+
+
+<h3>
+🌊 Hydrographic Processing
+</h3>
+
+
+<div class="tool-tags">
+
+<span>CARIS HIPS</span>
+
+<span>QPS Qimera</span>
+
+<span>FMGT</span>
+
+<span>Qinsy</span>
+
+<span>POSPac</span>
+
+<span>MBES</span>
+
+<span>Backscatter</span>
+
+</div>
+
+
+</div>
+
+
+
+
+
+<!-- GIS -->
+
+<div class="toolbox-card">
+
+
+<h3>
+🗺 GIS & Geospatial
+</h3>
+
+
+<div class="tool-tags">
+
+<span>ArcGIS</span>
+
+<span>QGIS</span>
+
+<span>Spatial Analysis</span>
+
+<span>Cartography</span>
+
+<span>Geodatabases</span>
+
+<span>GeoTIFF</span>
+
+</div>
+
+
+</div>
+
+
+
+
+
+<!-- Standards -->
+
+<div class="toolbox-card">
+
+
+<h3>
+📊 Data Standards & Formats
+</h3>
+
+
+<div class="tool-tags">
+
+<span>S-57</span>
+
+<span>S-101</span>
+
+<span>WGS84</span>
+
+<span>ETRS89</span>
+
+<span>ITRF2020</span>
+
+<span>HDCS</span>
+
+<span>KMALL</span>
+
+</div>
+
+
+</div>
+
+
+
+
+
+<!-- Programming -->
+
+<div class="toolbox-card">
+
+
+<h3>
+💻 Programming & Automation
+</h3>
+
+
+<div class="tool-tags">
+
+<span>Python</span>
+
+<span>GeoPandas</span>
+
+<span>GDAL</span>
+
+<span>Jupyter</span>
+
+<span>GitHub</span>
+
+<span>Web Mapping</span>
+
+
+
+</div>
+
+
+</section>
+ <!-- ==========================================
+     EDUCATION & PROFESSIONAL DEVELOPMENT
+========================================== -->
+
+<section id="education" class="section">
+
+
+<h2>
+Education & Professional Development
+</h2>
+
+
+<p class="section-intro">
+
+Academic background and continuous learning in
+Geomatics, GIS, cartography and geospatial technologies.
+
+</p>
+
+
+
+<div class="education-grid">
+
+
+
+<!-- LUND UNIVERSITY -->
+
+<div class="education-card">
+
+
+<img src="images/education/lund-university.png"
+
+alt="Lund University logo"
+
+class="university-logo">
+
+
+
+<h3>
+Master of Geomatics
+</h3>
+
+
+<h4>
+Lund University, Sweden
+</h4>
+
+
+<p>
+
+Advanced studies in GIS, spatial analysis,
+geographic information systems, mapping and
+geomatics technologies.
+
+</p>
+
+
+<div class="education-tags">
+
+<span>GIS</span>
+
+<span>Geomatics</span>
+
+<span>Spatial Analysis</span>
+
+<span>Mapping</span>
+
+</div>
+
+
+</div>
+
+
+
+
+
+<!-- UNIVERSITY OF RWANDA -->
+
+
+<div class="education-card">
+
+
+<img src="images/education/university-of-rwanda.png"
+
+alt="University of Rwanda logo"
+
+class="university-logo">
+
+
+
+<h3>
+Bachelor of Geography,
+Environment & Development
+</h3>
+
+
+<h4>
+University of Rwanda
+</h4>
+
+
+<p>
+
+Foundation in geography, environmental studies,
+development and geographic information management.
+
+</p>
+
+
+<div class="education-tags">
+
+<span>Geography</span>
+
+<span>Environment</span>
+
+<span>GIS</span>
+
+</div>
+
+
+</div>
+
+
+
+
+
+<!-- PROFESSIONAL DEVELOPMENT -->
+
+
+<div class="education-card">
+
+
+<div class="education-icon">
+
+🚀
+
+</div>
+
+
+<h3>
+Professional Development
+</h3>
+
+
+<h4>
+Modern Geospatial Technologies
+</h4>
+
+
+<p>
+
+Continuous improvement in Python for GIS,
+web mapping, automation and modern geospatial workflows.
+
+</p>
+
+
+<div class="education-tags">
+
+<span>Python</span>
+
+<span>Web GIS</span>
+
+<span>GitHub</span>
+
+<span>Automation</span>
+
+</div>
+
+
+</div>
+
+
+
+</div>
 
 
 </section>
 
+<!-- ==========================================
+     FEATURED PROJECTS
+========================================== -->
+
+<section id="featured-projects" class="section">
+
+    <h2>Featured Professional Projects</h2>
+
+    <p class="section-intro">
+        Explore selected projects that demonstrate my expertise in hydrographic data processing,
+        GIS, geomatics, cartography and spatial data management.
+    </p>
+
+    <div class="services-grid">
+
+      <div class="project-card">
 
 
 
+<div class="project-content">
 
+<span class="project-badge featured">
+
+★ Featured
+
+</span>
+
+<h3>
+
+🌊 Ocean Infinity
+
+</h3>
+
+<p>
+
+Hydrographic data processing for offshore survey projects, including MBES processing, bathymetry, backscatter analysis and quality assurance.
+
+</p>
+
+<div class="project-tags">
+
+<span>CARIS HIPS</span>
+
+<span>Qimera</span>
+
+<span>FMGT</span>
+
+<span>MBES</span>
+
+<span>GIS</span>
+
+</div>
+
+<a href="projects/ocean-infinity.html"
+class="btn">
+
+View Case Study →
+
+</a>
+
+</div>
+
+</div>
+
+        <div class="card">
+
+            <h3>🗺 Swedish Maritime Administration</h3>
+
+            <p>
+                Map Engineering, Hydrographic Database Management,
+                Nautical Chart Production and GIS.
+            </p>
+
+         <a href="projects/sma.html" class="btn">
+View Case Study →
+</a>
+
+        </div>
+
+        <div class="card">
+
+            <h3>⛏ Rwanda Mining, Petroleum & Gas Board</h3>
+
+         <p>
+    GIS and geospatial analysis supporting geological mapping,
+    mineral resource management, spatial databases and
+    cartographic products.
+</p>
+
+           <a href="projects/rmb.html" class="btn">
+    View Case Study →
+</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<div class="highlights">
+
+
+<div>
+
+<h3>
+🗺 GIS
+</h3>
+
+<p>
+Spatial analysis, cartography, geographic databases and mapping solutions.
+</p>
+
+</div>
+
+
+
+<div>
+
+<h3>
+🧭 Map Engineering
+</h3>
+
+<p>
+Digital maps, marine cartography, hydrographic databases and quality control.
+</p>
+
+</div>
+
+
+
+<div>
+
+<h3>
+🌊 Hydrography
+</h3>
+
+<p>
+MBES processing, bathymetry, backscatter and marine geospatial data.
+</p>
+
+</div>
+
+
+</div>
+
+
+
+<!-- EXPERIENCE -->
+
+
+<!-- ================= EXPERIENCE SECTION ================= -->
 
 
 <section id="experience" class="section dark">
 
 
 <h2>
-Yrkeserfarenhet
+Professional Experience
 </h2>
 
 
 
-<div class="card">
+<div class="timeline">
+
+
+
+<!-- Ocean Infinity -->
+
+<div class="timeline-item">
+
+
+<div class="timeline-dot"></div>
+
+
+<div class="timeline-content">
 
 
 <h3>
@@ -217,19 +1246,38 @@ Yrkeserfarenhet
 </h3>
 
 
-<p>
-
-Hydrografisk dataprocessor
-
-</p>
+<h4>
+Hydrographic Data Processor Grade 1
+</h4>
 
 
 <p>
-
-Bearbetning och kvalitetskontroll av marina undersökningsdata.
-
+2025 - Present
 </p>
 
+
+<ul>
+
+<li>
+Processing and quality control of offshore hydrographic survey data.
+</li>
+
+<li>
+Working with MBES, bathymetry, backscatter and marine geospatial datasets.
+</li>
+
+<li>
+Using CARIS HIPS, QPS Qimera, FMGT and hydrographic processing workflows.
+</li>
+
+<li>
+Preparing accurate marine data products according to project specifications.
+</li>
+
+</ul>
+
+
+</div>
 
 </div>
 
@@ -237,27 +1285,58 @@ Bearbetning och kvalitetskontroll av marina undersökningsdata.
 
 
 
-<div class="card">
+<!-- Swedish Maritime Administration -->
+
+
+<div class="timeline-item">
+
+
+<div class="timeline-dot"></div>
+
+
+<div class="timeline-content">
 
 
 <h3>
-🗺 Sjöfartsverket
+🗺 Swedish Maritime Administration
 </h3>
 
 
+<h4>
+Map Engineer
+</h4>
 <p>
+March 2021 - March 2025
+</p>
+  
 
-Kartingenjör
-
+<p>
+Hydrographic Mapping & Marine Cartography
 </p>
 
 
-<p>
+<ul>
 
-Arbete med hydrografiska databaser, kartproduktion och geografisk information.
+<li>
+Management and quality control of geographic and hydrographic databases.
+</li>
 
-</p>
+<li>
+Production and maintenance of marine mapping products.
+</li>
 
+<li>
+Processing measurement data for nautical chart information.
+</li>
+
+<li>
+Working with geographic information and cartographic workflows.
+</li>
+
+</ul>
+
+
+</div>
 
 </div>
 
@@ -265,7 +1344,16 @@ Arbete med hydrografiska databaser, kartproduktion och geografisk information.
 
 
 
-<div class="card">
+<!-- Älvstranden -->
+
+
+<div class="timeline-item">
+
+
+<div class="timeline-dot"></div>
+
+
+<div class="timeline-content">
 
 
 <h3>
@@ -273,23 +1361,100 @@ Arbete med hydrografiska databaser, kartproduktion och geografisk information.
 </h3>
 
 
+<h4>
+GIS Engineer
+</h4>
 <p>
+April 2017 - October 20217
+</p>
 
-GIS-ingenjör
-
+<p>
+Gothenburg, Sweden
 </p>
 
 
-<p>
+<ul>
 
-GIS-analyser, kartframställning och geodatastöd.
+<li>
+Developing GIS solutions and spatial data workflows.
+</li>
 
-</p>
+<li>
+Creating maps and geographic analysis products.
+</li>
+
+<li>
+Supporting decision-making through geospatial information.
+</li>
+
+</ul>
 
 
 </div>
 
+</div>
 
+
+
+
+
+<!-- Rwanda -->
+
+
+<div class="timeline-item">
+
+
+<div class="timeline-dot"></div>
+
+
+<div class="timeline-content">
+
+
+<h3>
+🌍 Rwanda Mining, Petroleum & Gas Board
+</h3>
+
+
+<h4>
+GIS & Geospatial Officer
+</h4>
+<p>
+January 2009 -December 2013
+</p>
+
+<p>
+Rwanda
+</p>
+
+
+<ul>
+
+<li>
+Managing GIS databases related to mineral resources.
+</li>
+
+<li>
+Creating geological and resource mapping products.
+</li>
+
+<li>
+Working with geologists to integrate geological and geochemical data.
+</li>
+
+<li>
+Maintaining spatial information related to mining permits and licenses.
+</li>
+
+</ul>
+
+
+</div>
+
+</div>
+
+
+
+</div>
 
 
 </section>
@@ -298,14 +1463,17 @@ GIS-analyser, kartframställning och geodatastöd.
 
 
 
+<!-- SKILLS -->
 
+
+<!-- ================= SKILLS SECTION ================= -->
 
 
 <section id="skills" class="section">
 
 
 <h2>
-Teknisk kompetens
+Technical Skills & Expertise
 </h2>
 
 
@@ -313,43 +1481,211 @@ Teknisk kompetens
 <div class="skills-dashboard">
 
 
+
+<!-- GIS -->
+
 <div class="skill-card">
 
+
 <h3>
-🗺 GIS
+🗺 GIS & Spatial Analysis
 </h3>
 
-<p>
-ArcGIS Pro, QGIS, spatial analys, kartografi
-</p>
+
+<ul>
+
+<li>ArcGIS Pro</li>
+
+<li>QGIS</li>
+
+<li>Spatial Analysis</li>
+
+<li>Cartography</li>
+
+<li>Geographic Databases</li>
+
+<li>Web GIS Concepts</li>
+
+</ul>
+
 
 </div>
 
 
 
+
+
+<!-- MAP ENGINEERING -->
+
+
 <div class="skill-card">
 
+
 <h3>
-🧭 Kartingenjör
+🧭 Map Engineering & Cartography
 </h3>
 
-<p>
-Kartproduktion, geodatabaser, marin kartografi
-</p>
+
+<ul>
+
+<li>Digital Mapping</li>
+
+<li>Marine Cartography</li>
+
+<li>Nautical Chart Data</li>
+
+<li>Hydrographic Databases</li>
+
+<li>Quality Control</li>
+
+<li>Geospatial Data Management</li>
+
+
+</ul>
+
 
 </div>
 
 
 
+
+
+
+<!-- HYDROGRAPHY -->
+
+
 <div class="skill-card">
 
+
 <h3>
-🌊 Hydrografi
+🌊 Hydrographic Survey
 </h3>
 
-<p>
-CARIS HIPS, Qimera, FMGT, MBES
-</p>
+
+<ul>
+
+<li>CARIS HIPS</li>
+
+<li>QPS Qimera</li>
+
+<li>FMGT</li>
+
+<li>Multibeam Echo Sounder (MBES)</li>
+
+<li>Backscatter Processing</li>
+
+<li>Bathymetric Data</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- GEOMATICS -->
+
+
+<div class="skill-card">
+
+
+<h3>
+🌍 Geomatics & Geodesy
+</h3>
+
+
+<ul>
+
+<li>Coordinate Reference Systems</li>
+
+<li>WGS84 / ETRS89 / ITRF</li>
+
+<li>GNSS Concepts</li>
+
+<li>Remote Sensing</li>
+
+<li>Spatial Data Infrastructure</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+<!-- PROGRAMMING -->
+
+
+<div class="skill-card">
+
+
+<h3>
+🐍 Programming & Data
+</h3>
+
+
+<ul>
+
+<li>Python for GIS</li>
+
+<li>SQL</li>
+
+<li>PostGIS</li>
+
+<li>HTML / CSS</li>
+
+<li>JavaScript</li>
+
+<li>GitHub</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+<!-- SOFTWARE -->
+
+
+<div class="skill-card">
+
+
+<h3>
+💻 Professional Software
+</h3>
+
+
+<ul>
+
+<li>CARIS HIPS</li>
+
+<li>QPS Qimera</li>
+
+<li>FMGT</li>
+
+<li>EIVA NaviModel</li>
+
+<li>Qinsy</li>
+
+<li>POSPAC</li>
+
+
+</ul>
+
 
 </div>
 
@@ -364,45 +1700,831 @@ CARIS HIPS, Qimera, FMGT, MBES
 
 
 
+
+
+<!-- PROJECTS -->
+
+
+<!-- ================= PROJECTS SECTION ================= -->
+<a href="services/index.html"
+class="btn">
+
+🌍 Professional Expertise
+
+</a>
+  <a href="python-gis/index.html"
+class="btn">
+
+🐍 Python GIS Project
+
+</a>
+  <a href="webgis/index.html"
+class="btn">
+
+🌐 Interactive Web GIS
+
+</a>
+<a href="gis-showcase/index.html"
+class="btn">
+
+🗺 GIS Showcase
+
+</a>
+<section id="projects" class="section dark">
+
+
+<h2>
+Projects & Professional Expertise
+</h2>
+
+
+
+
+<div class="projects-grid">
+
+
+
+
+
+<!-- PROJECT 1 -->
+
+<div class="project-card">
+
+
+<div class="project-icon">
+🌊
+</div>
+
+
+<h3>
+Offshore Hydrographic Data Processing
+</h3>
+
+
+
+<p>
+
+Processing and quality control of marine survey datasets including multibeam bathymetry, backscatter and hydrographic deliverables.
+
+</p>
+
+
+
+<h4>
+Tools & Technologies
+</h4>
+
+
+<ul>
+
+<li>CARIS HIPS</li>
+
+<li>QPS Qimera</li>
+
+<li>FMGT</li>
+
+<li>MBES</li>
+
+<li>Marine Geospatial Data</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PROJECT 2 -->
+
+
+<div class="project-card">
+
+
+<div class="project-icon">
+🗺
+</div>
+
+
+
+<h3>
+GIS Mapping & Spatial Analysis
+</h3>
+
+
+
+<p>
+
+Development of GIS solutions, spatial analysis workflows and geographic data products supporting decision-making.
+
+</p>
+
+
+
+<h4>
+Tools & Technologies
+</h4>
+
+
+<ul>
+
+<li>ArcGIS Pro</li>
+
+<li>QGIS</li>
+
+<li>Spatial Databases</li>
+
+<li>Cartography</li>
+
+<li>Web Mapping</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PROJECT 3 -->
+
+
+<div class="project-card">
+
+
+<div class="project-icon">
+🧭
+</div>
+
+
+
+<h3>
+Map Engineering & Marine Cartography
+</h3>
+
+
+
+<p>
+
+Management and quality control of geographic information, hydrographic databases and marine mapping products.
+
+</p>
+
+
+
+<h4>
+Tools & Technologies
+</h4>
+
+
+<ul>
+
+<li>Hydrographic Databases</li>
+
+<li>Digital Mapping</li>
+
+<li>Nautical Chart Data</li>
+
+<li>Geospatial Standards</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PROJECT 4 -->
+
+
+<div class="project-card">
+
+
+<div class="project-icon">
+🌍
+</div>
+
+
+
+<h3>
+Geological & Resource Mapping
+</h3>
+
+
+
+<p>
+
+GIS-based mapping of geological information, mineral resources and spatial datasets.
+
+</p>
+
+
+
+<h4>
+Tools & Technologies
+</h4>
+
+
+<ul>
+
+<li>GIS Database Management</li>
+
+<li>Geological Mapping</li>
+
+<li>Spatial Analysis</li>
+
+<li>Map Production</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PROJECT 5 -->
+
+
+<div class="project-card">
+
+
+<div class="project-icon">
+🐍
+</div>
+
+
+
+<h3>
+Python for GIS Development
+</h3>
+
+
+
+<p>
+
+Automation and improvement of geospatial workflows using programming and data analysis techniques.
+
+</p>
+
+
+
+<h4>
+Tools & Technologies
+</h4>
+
+
+<ul>
+
+<li>Python</li>
+
+<li>GeoPandas</li>
+
+<li>Raster Processing</li>
+
+<li>Spatial Data Analysis</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PROJECT 6 -->
+
+
+<div class="project-card">
+
+
+<div class="project-icon">
+🌐
+</div>
+
+
+
+<h3>
+Interactive Web Mapping
+</h3>
+
+
+
+<p>
+
+Development of modern web-based geographic visualization and interactive mapping solutions.
+
+</p>
+
+
+
+<h4>
+Tools & Technologies
+</h4>
+
+
+<ul>
+
+<li>Leaflet</li>
+
+<li>HTML/CSS</li>
+
+<li>JavaScript</li>
+
+<li>GIS Visualization</li>
+
+</ul>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+<section class="section stats">
+
+
+<h2>
+Professional Highlights
+</h2>
+
+
+<div class="stats-grid">
+
+
+<div>
+
+<h3>
+5+
+</h3>
+
+<p>
+Years in Hydrography & GIS
+</p>
+
+</div>
+
+
+<div>
+
+<h3>
+4
+</h3>
+
+<p>
+Professional Domains
+</p>
+
+</div>
+
+
+<div>
+
+<h3>
+10+
+</h3>
+
+<p>
+Technical Software Tools
+</p>
+
+</div>
+
+
+<div>
+
+<h3>
+2
+</h3>
+
+<p>
+Academic Degrees
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+<section id="currently" class="section">
+
+<h2>
+
+Currently
+
+</h2>
+
+<div class="card">
+
+<ul>
+
+<li>🌊 Hydrographic Data Processing</li>
+
+<li>🗺 Advanced GIS Analysis</li>
+
+<li>🧭 Cartographic Production</li>
+
+<li>🐍 Python for GIS Automation</li>
+
+<li>🌐 Web GIS Development</li>
+
+<li>📍 Open to GIS, Geomatics and Hydrographic opportunities</li>
+
+</ul>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+<!-- ================= CAREER MAP ================= -->
+
+
+<section id="map-section" class="section">
+
+
+<h2>
+My Geospatial Journey
+</h2>
+
+
+
+<p>
+
+Explore my professional journey through GIS, geomatics, mapping and hydrographic data.
+
+</p>
+
+
+
+<div id="career-map"></div>
+
+<!-- ================= GALLERY SECTION ================= -->
+
+
+<section id="gallery" class="section dark">
+
+
+<h2>
+Geospatial Gallery
+</h2>
+
+
+
+<p>
+
+Examples of GIS, mapping, hydrographic survey and geospatial work.
+
+</p>
+
+
+
+
+<div class="gallery-grid">
+
+
+
+<div class="gallery-item">
+
+<img src="images/gallery/bathymetry.jpg"
+alt="Bathymetric Map">
+
+<h3>
+Bathymetric Mapping
+</h3>
+
+</div>
+
+
+
+
+
+<div class="gallery-item">
+
+<img src="images/gallery/gis-map.jpg"
+alt="GIS Map">
+
+<h3>
+GIS & Spatial Analysis
+</h3>
+
+</div>
+
+
+
+
+
+<div class="gallery-item">
+
+<img src="images/gallery/survey-vessel.jpg"
+alt="Hydrographic Survey Vessel">
+
+<h3>
+Hydrographic Survey
+</h3>
+
+</div>
+
+
+
+
+
+<div class="gallery-item">
+
+<img src="images/gallery/cartography.jpg"
+alt="Cartographic Product">
+
+<h3>
+Map Engineering
+</h3>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+<!-- ================= EDUCATION SECTION ================= -->
+
+
+<section id="education" class="section">
+
+
+<h2>
+Education & Academic Background
+</h2>
+
+
+
+<div class="education-grid">
+
+
+
+<div class="education-card">
+
+
+<h3>
+🎓 Lund University, Sweden
+</h3>
+
+
+<h4>
+Master of Science in Geomatics
+</h4>
+
+
+<p>
+
+Advanced studies in GIS, geospatial technologies, spatial data analysis, mapping and geomatics engineering.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="education-card">
+
+
+<h3>
+🌍 University of Rwanda
+</h3>
+
+
+<h4>
+Bachelor of Geography, Environment and Development
+</h4>
+
+
+<p>
+
+Foundation in geography, environmental studies, spatial analysis and geographic information systems.
+
+</p>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+  <!-- ================= CV SECTION ================= -->
 
 
 <section id="cv" class="section dark">
 
 
 <h2>
-Professionellt CV
+Professional CV
 </h2>
 
 
-<a href="../cv/Concorde_Bazimaziki_CV_SV.pdf"
-class="btn">
 
-Ladda ner svenskt CV
+<p>
+
+Download my professional CV in English or Swedish.
+
+</p>
+
+
+
+
+<div class="cv-buttons">
+
+
+
+<a href="cv/Concorde_Bazimaziki_CV_EN.pdf"
+class="btn"
+target="_blank">
+
+🇬🇧 English CV
 
 </a>
 
+
+
+
+
+<a href="cv/Concorde_Bazimaziki_CV_SV.pdf"
+class="btn"
+target="_blank">
+
+🇸🇪 Swedish CV
+
+</a>
+
+
+
+</div>
+
+
+
+
+</section>
+</section>
+
+<section id="contact" class="section">
+
+
+<h2>
+
+Contact
+
+</h2>
+
+
+<div class="contact-links">
+
+
+<p>
+📧 Email:
+concorde2007@gmail.com
+</p>
+
+
+<p>
+💻 GitHub:
+<a href="#">
+github.com/concordebazimaziki
+</a>
+</p>
+Portfolio:
+https://concordebazi.github.io/ConcordeBAZ/index.html
+
+<p>
+🔗 LinkedIn:
+<a href="#">
+<a href="https://www.linkedin.com/in/concorde-bazimaziki-70046b34/">
+LinkedIn
+</a>
+</a>
+</p>
+
+
+</div>
+
+
+</section>
+
+<section class="section dark">
+
+<h2>
+
+Let's Work Together
+
+</h2>
+
+<p>
+
+I welcome opportunities in GIS, Geomatics, Cartography, Hydrographic Surveying and Spatial Data Engineering.
+
+With experience in marine geospatial data processing, GIS analysis and professional mapping, I enjoy helping organisations transform geographic data into reliable decision-making information.
+
+</p>
+
+<a href="contact/index.html" class="btn">
+
+Contact Me
+
+</a>
 
 </section>
 
 
 
 
-
-
-
 <footer>
+
+<div class="footer-content">
+
+<h3>Concorde Bazimaziki</h3>
 
 <p>
 
-© 2026 Concorde Bazimaziki
+GIS & Geomatics Engineer
 
 </p>
+
+<p>
+
+Map Engineer | Hydrographic Data Processing Specialist
+
+</p>
+
+<p>
+
+📍 Gothenburg, Sweden
+
+</p>
+
+<p>
+
+📧 concorde2007@gmail.com
+
+</p>
+
+</div>
 
 </footer>
 
 
 
-<script src="../js/script.js"></script>
+
+
+<!-- Leaflet JavaScript -->
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+
+<script src="js/map.js"></script>
+
+<script src="js/gallery.js"></script>
+ <script src="js/darkmode.js"></script>
+ <script src="js/typing.js"></script> 
+<script src="js/script.js"></script>
 
 
 </body>
