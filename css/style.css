@@ -2912,3 +2912,31 @@ color:#caf0f8;
 color:white;
 
 }
+.skills-tags span{
+
+background:transparent;
+
+color:white;
+
+padding:0;
+
+margin:0 15px 0 0;
+
+border-radius:0;
+
+font-size:16px;
+
+font-weight:normal;
+
+display:inline;
+
+}
+.skills-tags span:not(:last-child)::after{
+
+content:" | ";
+
+margin-left:15px;
+
+color:#caf0f8;
+
+}
