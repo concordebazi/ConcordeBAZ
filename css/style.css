@@ -2741,3 +2741,19 @@ border-radius:20px;
 font-size:14px;
 
 }
+@media(max-width:768px){
+
+.project-hero{
+
+flex-direction:column;
+
+}
+
+
+.hero-image img{
+
+height:220px;
+
+}
+
+}
