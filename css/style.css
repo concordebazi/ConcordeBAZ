@@ -151,7 +151,12 @@ color:#00b4d8;
 
 
 }
-
+.nav-links a{
+    color:white;
+    font-weight:500;
+    transition:.3s;
+    text-decoration:none;
+}
 
 
 
