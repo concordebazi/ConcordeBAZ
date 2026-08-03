@@ -3490,3 +3490,18 @@ border:none;
 padding:0;
 
 }
+.contact-links p {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+.contact-links a {
+    color: #00b4d8;
+    font-weight: 600;
+}
+
+
+.contact-links a:hover {
+    color: #90e0ef;
+}
