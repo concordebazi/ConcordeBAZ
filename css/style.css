@@ -3544,3 +3544,21 @@ padding:0;
     color:#003049;    /* phone number navy blue */
     font-weight:600;
 }
+.dark .contact-links p {
+    color:#ffffff;
+}
+
+
+.dark .contact-links a {
+    color:#00b4d8;
+}
+
+
+.dark .contact-links a:hover {
+    color:#90e0ef;
+}
+
+
+.dark .phone-number span {
+    color:#00b4d8;
+}
