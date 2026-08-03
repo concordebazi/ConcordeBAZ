@@ -90,3 +90,24 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 
 });
+// ========================
+// CLOSE MOBILE MENU AFTER CLICK
+// ========================
+
+const menuLinks = document.querySelectorAll(".nav-links a");
+
+menuLinks.forEach(link => {
+
+    link.addEventListener("click", () => {
+
+        const navLinks = document.getElementById("nav-links");
+
+        if(navLinks){
+
+            navLinks.classList.remove("active");
+
+        }
+
+    });
+
+});
