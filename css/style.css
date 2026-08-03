@@ -3299,6 +3299,6 @@ height:auto;
 .hero{
     display:flex !important;
     height:100vh !important;
-    background:#001F3F !important;
+    background:teal !important;
     color:white !important;
 }
