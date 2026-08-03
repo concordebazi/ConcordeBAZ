@@ -3042,12 +3042,7 @@ body{
     z-index: 2;
     color: white;
 }
-.hero{
-    display:flex !important;
-    height:100vh !important;
-    background:blue !important;
-    color:white !important;
-}
+
 /* ==========================================
    MOBILE RESPONSIVE DESIGN
 ========================================== */
@@ -3296,21 +3291,48 @@ height:auto;
 
     position:relative;
 }
-.hero{
-    display:flex !important;
-    height:100vh !important;
-    background:teal !important;
-    color:white !important;
-}
+
 /* =========================
    MOBILE MENU
 ========================= */
 
-@media (max-width: 768px){
+/* =========================
+   FINAL MOBILE NAVIGATION FIX
+========================= */
+
+.hamburger{
+    display:none;
+    cursor:pointer;
+}
+
+
+.hamburger span{
+    display:block;
+    width:30px;
+    height:3px;
+    background:white;
+    margin:6px;
+}
+
+
+@media(max-width:768px){
+
+
+    .navbar{
+
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        padding:15px 20px;
+
+    }
+
 
     .hamburger{
+
         display:block;
-        cursor:pointer;
+
     }
 
 
@@ -3325,16 +3347,25 @@ height:auto;
 
         flex-direction:column;
 
-        background:#212529;
+        background:#003049;
 
         padding:20px;
+
+        text-align:center;
 
     }
 
 
     .nav-links.active{
 
-        display:flex;
+        display:flex !important;
+
+    }
+
+
+    .nav-links li{
+
+        margin:15px 0;
 
     }
 
