@@ -14,19 +14,18 @@ const closeButton =
 document.querySelector(".close-modal");
 
 
+
+if(modal){
+
 images.forEach(image => {
 
 image.addEventListener("click", function(e){
 
-    e.preventDefault();
+e.preventDefault();
 
-    if(modal && expandedImage){
+modal.style.display="flex";
 
-        modal.style.display="flex";
-
-        expandedImage.src=this.href;
-
-    }
+expandedImage.src=this.href;
 
 });
 
@@ -44,70 +43,63 @@ modal.style.display="none";
 }
 
 
-if(modal){
+modal.onclick=function(e){
 
-    modal.onclick=function(e){
+if(e.target === modal){
 
-        if(e.target === modal){
-
-            modal.style.display="none";
-
-        }
-
-    };
+modal.style.display="none";
 
 }
-// Mobile Hamburger Menu
+
+};
+
+}
+
+
 
 // ========================
 // MOBILE HAMBURGER MENU
 // ========================
 
-// ========================
-// MOBILE MENU TEST
-// ========================
 
-document.addEventListener("DOMContentLoaded", function(){
-
-    const hamburger = document.getElementById("hamburger");
-    const navLinks = document.getElementById("nav-links");
+const hamburger =
+document.getElementById("hamburger");
 
 
-    if(hamburger && navLinks){
+const navLinks =
+document.getElementById("nav-links");
 
-        hamburger.onclick = function(){
 
-            console.log("Hamburger clicked");
 
-            navLinks.classList.toggle("active");
+if(hamburger && navLinks){
 
-        };
 
-    } else {
+hamburger.addEventListener("click",()=>{
 
-        console.log("Hamburger elements missing");
 
-    }
+navLinks.classList.toggle("active");
+
 
 });
-// ========================
-// CLOSE MOBILE MENU AFTER CLICK
-// ========================
 
-const menuLinks = document.querySelectorAll(".nav-links a");
 
-menuLinks.forEach(link => {
 
-    link.addEventListener("click", () => {
+// Close menu after clicking link
 
-        const navLinks = document.getElementById("nav-links");
+document.querySelectorAll(".nav-links a")
+.forEach(link=>{
 
-        if(navLinks){
 
-            navLinks.classList.remove("active");
+link.addEventListener("click",()=>{
 
-        }
 
-    });
+navLinks.classList.remove("active");
+
 
 });
+
+
+});
+
+
+}
