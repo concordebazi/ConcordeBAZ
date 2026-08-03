@@ -16,20 +16,19 @@ document.querySelector(".close-modal");
 
 images.forEach(image => {
 
-
 image.addEventListener("click", function(e){
 
-e.preventDefault();
+    e.preventDefault();
 
+    if(modal && expandedImage){
 
-modal.style.display="flex";
+        modal.style.display="flex";
 
+        expandedImage.src=this.href;
 
-expandedImage.src=this.href;
-
+    }
 
 });
-
 
 });
 
@@ -45,15 +44,19 @@ modal.style.display="none";
 }
 
 
-modal.onclick=function(e){
+if(modal){
 
-if(e.target === modal){
+    modal.onclick=function(e){
 
-modal.style.display="none";
+        if(e.target === modal){
+
+            modal.style.display="none";
+
+        }
+
+    };
 
 }
-
-};
 // Mobile Hamburger Menu
 
 // ========================
