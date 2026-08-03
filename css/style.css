@@ -3579,15 +3579,19 @@ color:white;
 }
 .professional-contact{
 
-margin:30px auto;
+margin:40px auto;
 
-padding:20px;
+padding:30px;
 
-max-width:500px;
+max-width:550px;
 
-background:white;
+background:rgba(255,255,255,0.95);
 
-border-radius:15px;
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.20);
+
+border:1px solid rgba(0,48,73,0.15);
 
 }
 
@@ -3598,6 +3602,10 @@ color:#003049;
 
 text-align:center;
 
+font-size:28px;
+
+margin-bottom:25px;
+
 }
 
 
@@ -3605,20 +3613,37 @@ text-align:center;
 
 color:#003049;
 
+font-size:18px;
+
+padding:12px 5px;
+
+margin:0;
+
+border-bottom:1px solid #ddd;
+
+}
+
+
+.professional-contact p:last-child{
+
+border-bottom:none;
+
 }
 
 
 .professional-contact a{
 
-color:#00b4d8;
+color:#0077b6;
 
 font-weight:600;
+
+text-decoration:none;
 
 }
 
 
 .professional-contact a:hover{
 
-color:#003049;
+color:#00b4d8;
 
 }
