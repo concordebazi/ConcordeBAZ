@@ -3523,3 +3523,24 @@ padding:0;
 .phone-number a:hover {
     color:#90e0ef;
 }
+.contact-links p {
+    color: #003049;   /* navy blue */
+    font-size:18px;
+}
+
+
+.contact-links a {
+    color:#003049;    /* navy blue links */
+    font-weight:600;
+}
+
+
+.contact-links a:hover {
+    color:#00b4d8;    /* ocean blue on hover */
+}
+
+
+.phone-number span {
+    color:#003049;    /* phone number navy blue */
+    font-weight:600;
+}
