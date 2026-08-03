@@ -60,16 +60,30 @@ modal.style.display="none";
 // MOBILE HAMBURGER MENU
 // ========================
 
-const hamburger = document.getElementById("hamburger");
-const navLinks = document.getElementById("nav-links");
+// ========================
+// MOBILE MENU TEST
+// ========================
+
+document.addEventListener("DOMContentLoaded", function(){
+
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("nav-links");
 
 
-if (hamburger && navLinks) {
+    if(hamburger && navLinks){
 
-    hamburger.addEventListener("click", () => {
+        hamburger.onclick = function(){
 
-        navLinks.classList.toggle("active");
+            console.log("Hamburger clicked");
 
-    });
+            navLinks.classList.toggle("active");
 
-}
+        };
+
+    } else {
+
+        console.log("Hamburger elements missing");
+
+    }
+
+});
