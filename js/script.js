@@ -56,12 +56,20 @@ modal.style.display="none";
 };
 // Mobile Hamburger Menu
 
+// ========================
+// MOBILE HAMBURGER MENU
+// ========================
+
 const hamburger = document.getElementById("hamburger");
 const navLinks = document.getElementById("nav-links");
 
 
-hamburger.addEventListener("click", () => {
+if (hamburger && navLinks) {
 
-    navLinks.classList.toggle("active");
+    hamburger.addEventListener("click", () => {
 
-});
+        navLinks.classList.toggle("active");
+
+    });
+
+}
