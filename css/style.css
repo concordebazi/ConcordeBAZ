@@ -3045,7 +3045,7 @@ body{
 .hero{
     display:flex !important;
     height:100vh !important;
-    background:red !important;
+    background:blue !important;
     color:white !important;
 }
 /* ==========================================
