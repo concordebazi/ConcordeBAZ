@@ -41,8 +41,9 @@ line-height:1.7;
 .hamburger{
 
 display:none;
-
 cursor:pointer;
+background:none;
+border:none;
 
 }
 
