@@ -3279,3 +3279,20 @@ max-width:100%;
 height:auto;
 
 }
+.hero{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:#fff;
+
+    background:
+        linear-gradient(
+            rgba(0,48,73,0.72),
+            rgba(0,119,182,0.72)
+        ),
+        url("../images/hero-bg.jpg") center center/cover no-repeat;
+
+    position:relative;
+}
