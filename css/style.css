@@ -3505,3 +3505,13 @@ padding:0;
 .contact-links a:hover {
     color: #90e0ef;
 }
+.phone-number {
+    color: white;
+    font-size: 18px;
+}
+
+
+.phone-number span {
+    color: #00b4d8;
+    font-weight: 600;
+}
