@@ -3409,3 +3409,78 @@ section{
 scroll-margin-top:100px;
 
 }
+/* =====================================
+   MOBILE MENU FINAL POSITION FIX
+===================================== */
+
+@media (max-width:768px){
+
+    .navbar{
+
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        z-index:3000;
+
+    }
+
+
+    .nav-links{
+
+        display:none;
+
+        flex-direction:column;
+
+        position:absolute;
+
+        top:100%;
+
+        left:0;
+
+        width:100%;
+
+        background:#003049;
+
+        padding:20px;
+
+        margin:0;
+
+        z-index:2500;
+
+    }
+
+
+    .nav-links.active{
+
+        display:flex;
+
+    }
+
+
+}
+section{
+
+    scroll-margin-top:90px;
+
+}
+@media(max-width:768px){
+
+.nav-links a{
+
+    display:block;
+
+    padding:10px;
+
+}
+
+
+.nav-links a:hover{
+
+    background:#0077b6;
+
+    border-radius:10px;
+
+}
+
+}
