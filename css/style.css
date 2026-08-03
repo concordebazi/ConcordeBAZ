@@ -3515,3 +3515,11 @@ padding:0;
     color: #00b4d8;
     font-weight: 600;
 }
+.phone-number a {
+    color:#00b4d8;
+    font-weight:600;
+}
+
+.phone-number a:hover {
+    color:#90e0ef;
+}
