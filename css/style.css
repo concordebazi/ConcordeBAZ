@@ -3371,3 +3371,36 @@ height:auto;
 
 
 }
+/* TEMP MOBILE MENU DEBUG */
+
+@media(max-width:768px){
+
+.hamburger{
+
+    display:block !important;
+    position:relative;
+    z-index:3000;
+
+}
+
+
+.nav-links{
+
+    display:none !important;
+
+}
+
+
+.nav-links.active{
+
+    display:flex !important;
+    position:absolute;
+    top:70px;
+    left:0;
+    width:100%;
+    background:#003049;
+    z-index:2000;
+
+}
+
+}
