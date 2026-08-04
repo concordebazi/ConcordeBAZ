@@ -3705,3 +3705,45 @@ z-index:999;
 background:#00b4d8;
 
 }
+#topBtn{
+
+position:fixed;
+
+bottom:25px;
+
+right:25px;
+
+display:none;
+
+background:#003049;   /* Navy blue background */
+
+color:white;          /* Arrow color */
+
+border:none;
+
+border-radius:50%;
+
+width:55px;
+
+height:55px;
+
+font-size:22px;
+
+cursor:pointer;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+
+transition:0.3s;
+
+z-index:999;
+
+}
+
+
+#topBtn:hover{
+
+background:#00b4d8;   /* Ocean blue on hover */
+
+transform:translateY(-3px);
+
+}
