@@ -3798,75 +3798,111 @@ color:white;
    FINAL MOBILE HAMBURGER MENU FIX
 ===================================== */
 
+/* =====================================
+   COMPACT MOBILE HAMBURGER MENU
+===================================== */
+
+
 @media(max-width:768px){
 
-    .hamburger{
-        display:block !important;
-        z-index:3000;
-    }
+
+.hamburger{
+
+display:block !important;
+
+z-index:3000;
+
+}
 
 
-    .nav-links{
-
-        display:none !important;
-
-        position:absolute;
-
-        top:70px;
-
-        left:0;
-
-        width:100%;
-
-        background:#003049;
-
-        flex-direction:column;
-
-        padding:25px 0;
-
-        text-align:center;
-
-        z-index:2500;
-
-    }
+.nav-links{
 
 
-    .nav-links.active{
+display:none !important;
 
-        display:flex !important;
+position:absolute;
 
-    }
+top:70px;
 
+left:0;
 
-    .nav-links li{
-
-        margin:15px 0;
-
-        list-style:none;
-
-    }
+width:100%;
 
 
-    .nav-links a{
-
-        display:block;
-
-        color:white;
-
-        font-size:18px;
-
-        padding:10px;
-
-    }
+background:#003049;
 
 
-    .nav-links a:hover{
+flex-direction:column;
 
-        background:#0077b6;
 
-        border-radius:10px;
+padding:10px 0;
 
-    }
+
+text-align:center;
+
+
+z-index:2500;
+
+
+max-height:75vh;
+
+overflow-y:auto;
+
+
+}
+
+
+
+.nav-links.active{
+
+display:flex !important;
+
+}
+
+
+
+.nav-links li{
+
+
+margin:3px 0;
+
+
+list-style:none;
+
+
+}
+
+
+
+.nav-links a{
+
+
+display:block;
+
+
+color:white;
+
+
+font-size:16px;
+
+
+padding:8px;
+
+
+}
+
+
+
+.nav-links a:hover{
+
+
+background:#0077b6;
+
+border-radius:8px;
+
+
+}
+
 
 
 }
