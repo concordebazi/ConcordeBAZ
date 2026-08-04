@@ -178,8 +178,11 @@ color:#00b4d8;
 
 .hero{
 
+min-height:90vh;
+height:auto;
+padding:120px 20px 80px;
 
-height:100vh;
+}
 
 
 display:flex;
@@ -623,9 +626,8 @@ gap:50px;
 .profile-image img{
 
 
-width:300px;
-
-height:300px;
+width:250px;
+height:250px;
 
 object-fit:cover;
 
@@ -790,7 +792,7 @@ background:#00b4d8;
 
 position:relative;
 
-margin-bottom:50px;
+margin-bottom:30px;
 
 padding-left:70px;
 
@@ -1020,7 +1022,7 @@ background:white;
 
 color:#212529;
 
-padding:35px;
+padding:25px;
 
 border-radius:20px;
 
@@ -2069,7 +2071,7 @@ margin:50px auto;
 
 .skill-item{
 
-margin-bottom:30px;
+margin-bottom:20px;
 
 }
 
