@@ -29,7 +29,7 @@ L.tileLayer(
 var mapIcon = L.icon({
 
 iconUrl:
-'images/icons/map-icon.png',
+'../images/icons/map-icon.png',
 
 iconSize:
 [45,45],
@@ -47,7 +47,7 @@ popupAnchor:
 var geologyIcon = L.icon({
 
 iconUrl:
-'images/icons/geology-icon.png',
+'/ConcordeBAZ/images/icons/geology-icon.png',
 
 iconSize:
 [45,45],
@@ -65,7 +65,7 @@ popupAnchor:
 var shipIcon = L.icon({
 
 iconUrl:
-'images/icons/ship-icon.png',
+'/ConcordeBAZ/images/icons/ship-icon.png',
 
 iconSize:
 [45,45],
@@ -101,7 +101,7 @@ sweden.bindPopup(`
 
 <div class="popup-card">
 
-<img src="images/map/swedish-maritime.jpg"
+<img src="/ConcordeBAZ/images/map/swedish-maritime.jpg"
 style="width:100%;
 border-radius:8px;
 margin-bottom:10px;">
@@ -160,7 +160,7 @@ rwanda.bindPopup(`
 
 <div class="popup-card">
 
-<img src="images/map/rwanda-gis.jpg"
+<img src="/ConcordeBAZ/images/map/rwanda-gis.jpg"
 style="width:100%;
 border-radius:8px;
 margin-bottom:10px;">
@@ -210,7 +210,7 @@ offshore.bindPopup(`
 
 <div class="popup-card">
 
-<img src="images/map/ocean-infinity.jpg"
+<img src="/ConcordeBAZ/images/map/ocean-infinity.jpg"
 style="width:100%;
 border-radius:8px;
 margin-bottom:10px;">
