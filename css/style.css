@@ -3659,3 +3659,161 @@ gap:0;
 
 
 }
+/* =====================================
+   PROFESSIONAL PAGE ANIMATIONS
+===================================== */
+
+
+/* Hidden before appearing */
+
+.animate{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
+
+}
+
+
+/* Visible state */
+
+.animate.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+
+/* Hero animation */
+
+.hero-content h1{
+
+    animation:fadeDown 1s ease forwards;
+
+}
+
+
+.hero-content h2{
+
+    animation:fadeDown 1.2s ease forwards;
+
+}
+
+
+.hero-content h3{
+
+    animation:fadeDown 1.4s ease forwards;
+
+}
+
+
+.hero-content p{
+
+    animation:fadeDown 1.6s ease forwards;
+
+}
+
+
+.hero-content .buttons{
+
+    animation:fadeUp 1.8s ease forwards;
+
+}
+
+
+
+/* Animation keyframes */
+
+
+@keyframes fadeDown{
+
+
+from{
+
+opacity:0;
+
+transform:translateY(-40px);
+
+}
+
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+
+}
+
+
+
+@keyframes fadeUp{
+
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+
+}
+
+
+
+/* Card hover animation */
+
+
+.card,
+.project-card,
+.education-card,
+.skill-card,
+.toolbox-card{
+
+
+transition:
+
+transform .4s ease,
+box-shadow .4s ease;
+
+
+}
+
+
+
+.card:hover,
+.project-card:hover,
+.education-card:hover,
+.skill-card:hover,
+.toolbox-card:hover{
+
+
+transform:translateY(-10px);
+
+
+box-shadow:
+
+0 15px 35px rgba(0,0,0,.20);
+
+
+}
