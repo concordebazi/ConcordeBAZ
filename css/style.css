@@ -3794,3 +3794,79 @@ background:#21867a;
 color:white;
 
 }
+/* =====================================
+   FINAL MOBILE HAMBURGER MENU FIX
+===================================== */
+
+@media(max-width:768px){
+
+    .hamburger{
+        display:block !important;
+        z-index:3000;
+    }
+
+
+    .nav-links{
+
+        display:none !important;
+
+        position:absolute;
+
+        top:70px;
+
+        left:0;
+
+        width:100%;
+
+        background:#003049;
+
+        flex-direction:column;
+
+        padding:25px 0;
+
+        text-align:center;
+
+        z-index:2500;
+
+    }
+
+
+    .nav-links.active{
+
+        display:flex !important;
+
+    }
+
+
+    .nav-links li{
+
+        margin:15px 0;
+
+        list-style:none;
+
+    }
+
+
+    .nav-links a{
+
+        display:block;
+
+        color:white;
+
+        font-size:18px;
+
+        padding:10px;
+
+    }
+
+
+    .nav-links a:hover{
+
+        background:#0077b6;
+
+        border-radius:10px;
+
+    }
+
+
+}
