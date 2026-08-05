@@ -320,7 +320,13 @@ transition:.3s;
 text-decoration:none;
 
 }
+.btn:hover{
 
+transform:translateY(-5px);
+
+box-shadow:0 10px 20px rgba(0,0,0,.25);
+
+}
 
 
 .btn.second{
@@ -3691,41 +3697,105 @@ gap:0;
 
 
 /* Hero animation */
+/* =====================================
+   HERO SMOOTH INTRO ANIMATION
+===================================== */
+
 
 .hero-content h1{
 
-    animation:fadeDown 1s ease forwards;
+opacity:0;
+animation:fadeDown 1s ease forwards;
 
 }
+
 
 
 .hero-content h2{
 
-    animation:fadeDown 1.2s ease forwards;
+opacity:0;
+animation:fadeDown 1.2s ease forwards;
 
 }
+
 
 
 .hero-content h3{
 
-    animation:fadeDown 1.4s ease forwards;
+opacity:0;
+animation:fadeDown 1.4s ease forwards;
 
 }
+
 
 
 .hero-content p{
 
-    animation:fadeDown 1.6s ease forwards;
+opacity:0;
+animation:fadeDown 1.6s ease forwards;
 
 }
+
 
 
 .hero-content .buttons{
 
-    animation:fadeUp 1.8s ease forwards;
+opacity:0;
+animation:fadeUp 1.8s ease forwards;
 
 }
 
+
+
+
+@keyframes fadeDown{
+
+
+from{
+
+opacity:0;
+
+transform:translateY(-40px);
+
+}
+
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+
+}
+
+
+
+
+@keyframes fadeUp{
+
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+
+}
 
 
 /* Animation keyframes */
