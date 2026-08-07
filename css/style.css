@@ -3967,3 +3967,37 @@ box-shadow:
     }
 
 }
+/* ===========================
+   HAMBURGER BUTTON
+=========================== */
+
+.hamburger{
+
+    display:none;
+    flex-direction:column;
+    justify-content:center;
+    cursor:pointer;
+
+    background:none;
+    border:none;
+
+    width:40px;
+    height:40px;
+
+    z-index:4000;
+}
+
+.hamburger span{
+
+    width:28px;
+    height:3px;
+
+    background:#ffffff;
+
+    margin:4px auto;
+
+    border-radius:3px;
+
+    transition:.3s;
+
+}
