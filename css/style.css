@@ -4230,3 +4230,114 @@ FINAL HAMBURGER FORCE TEST
 body {
     border: 10px solid red !important;
 }
+/* =====================================
+FINAL CLEAN MOBILE HAMBURGER
+===================================== */
+
+
+.hamburger{
+
+display:none;
+
+background:transparent;
+
+border:none;
+
+cursor:pointer;
+
+}
+
+
+.hamburger span{
+
+display:block;
+
+width:30px;
+
+height:3px;
+
+background:white;
+
+margin:6px;
+
+border-radius:5px;
+
+}
+
+
+
+@media screen and (max-width:768px){
+
+
+.navbar{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:15px 20px;
+
+}
+
+
+.hamburger{
+
+display:block !important;
+
+z-index:99999;
+
+}
+
+
+
+.nav-links{
+
+position:absolute;
+
+top:70px;
+
+left:0;
+
+width:100%;
+
+display:none !important;
+
+flex-direction:column;
+
+background:#003049;
+
+padding:20px;
+
+z-index:99998;
+
+}
+
+
+
+.nav-links.active{
+
+display:flex !important;
+
+}
+
+
+
+.nav-links li{
+
+margin:15px 0;
+
+}
+
+
+
+}
