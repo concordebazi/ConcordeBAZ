@@ -4001,3 +4001,35 @@ box-shadow:
     transition:.3s;
 
 }
+/* ======================================
+   FORCE HAMBURGER FIX
+====================================== */
+
+.hamburger{
+    display:none;
+    background:none;
+    border:none;
+    cursor:pointer;
+}
+
+.hamburger span{
+    display:block;
+    width:30px;
+    height:3px;
+    margin:6px 0;
+    background:#ffffff;
+}
+
+@media (max-width:768px){
+
+    .navbar{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .hamburger{
+        display:block !important;
+    }
+
+}
