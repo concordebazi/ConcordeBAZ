@@ -4028,8 +4028,49 @@ box-shadow:
         align-items:center;
     }
 
+
+    /* Show hamburger */
     .hamburger{
-        display:block !important;
+        display:flex !important;
+    }
+
+
+    /* Hide menu outside screen */
+    .nav-links{
+
+        position:absolute;
+
+        top:70px;
+
+        left:-100%;
+
+        width:100%;
+
+        flex-direction:column;
+
+        background:#003049;
+
+        text-align:center;
+
+        transition:0.3s ease;
+
+        z-index:3000;
+
+    }
+
+
+    /* Open menu when hamburger clicked */
+    .nav-links.active{
+
+        left:0;
+
+    }
+
+
+    .nav-links li{
+
+        margin:15px 0;
+
     }
 
 }
