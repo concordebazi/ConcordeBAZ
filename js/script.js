@@ -62,25 +62,16 @@ modal.style.display="none";
 // ========================
 
 
-const hamburger =
-document.getElementById("hamburger");
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("nav-links");
 
+if (hamburger && navLinks) {
 
-const navLinks =
-document.getElementById("nav-links");
+    hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+    });
 
-
-
-if(hamburger && navLinks){
-
-
-hamburger.addEventListener("click",()=>{
-
-
-navLinks.classList.toggle("active");
-
-
-});
+}
 
 
 
