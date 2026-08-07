@@ -68,7 +68,9 @@ const navLinks = document.getElementById("nav-links");
 if (hamburger && navLinks) {
 
     hamburger.addEventListener("click", () => {
+
         navLinks.classList.toggle("active");
+
     });
 
 }
@@ -77,23 +79,20 @@ if (hamburger && navLinks) {
 
 // Close menu after clicking link
 
+// Close menu after clicking link
+
 document.querySelectorAll(".nav-links a")
 .forEach(link=>{
 
+    link.addEventListener("click",()=>{
 
-link.addEventListener("click",()=>{
+        if(navLinks){
+            navLinks.classList.remove("active");
+        }
 
-
-navLinks.classList.remove("active");
-
-
-});
-
+    });
 
 });
-
-
-}
 // Scroll animation
 
 const animatedElements = document.querySelectorAll(".animate");
