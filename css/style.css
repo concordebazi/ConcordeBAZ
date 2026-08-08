@@ -4110,4 +4110,37 @@ margin:15px 0;
     }
 
 }
+/* =========================================
+   HAMBURGER EMERGENCY TEST
+   ========================================= */
 
+.hamburger {
+    display: flex !important;
+    position: fixed !important;
+
+    top: 15px !important;
+    right: 20px !important;
+
+    width: 50px !important;
+    height: 50px !important;
+
+    background: red !important;
+    border: 3px solid yellow !important;
+
+    z-index: 999999 !important;
+
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.hamburger span {
+    display: block !important;
+
+    width: 30px !important;
+    height: 4px !important;
+
+    margin: 4px !important;
+
+    background: white !important;
+}
