@@ -57,74 +57,34 @@ modal.style.display="none";
 
 
 
+
+
 // ========================
 // MOBILE HAMBURGER MENU
 // ========================
-
 
 const hamburger = document.getElementById("hamburger");
 const navLinks = document.getElementById("nav-links");
 
 if (hamburger && navLinks) {
 
-    hamburger.addEventListener("click", () => {
+    hamburger.addEventListener("click", function () {
 
         navLinks.classList.toggle("active");
 
     });
 
-}
 
+    // Close menu when clicking a link
 
+    navLinks.querySelectorAll("a").forEach(function (link) {
 
-// Close menu after clicking link
+        link.addEventListener("click", function () {
 
-// Close menu after clicking link
-
-document.querySelectorAll(".nav-links a")
-.forEach(link=>{
-
-    link.addEventListener("click",()=>{
-
-        if(navLinks){
             navLinks.classList.remove("active");
-        }
+
+        });
 
     });
 
-});
-// Scroll animation
-
-const animatedElements = document.querySelectorAll(".animate");
-
-
-const observer = new IntersectionObserver((entries)=>{
-
-
-entries.forEach(entry=>{
-
-
-if(entry.isIntersecting){
-
-entry.target.classList.add("show");
-
 }
-
-
-});
-
-
-},
-{
-
-threshold:0.15
-
-});
-
-
-
-animatedElements.forEach((element)=>{
-
-observer.observe(element);
-
-});
