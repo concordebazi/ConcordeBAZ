@@ -59,24 +59,33 @@ modal.style.display="none";
 
 
 
-// ========================
+// =========================================
 // MOBILE HAMBURGER MENU
-// ========================
+// =========================================
 
-const hamburger = document.getElementById("hamburger");
-const navLinks = document.getElementById("nav-links");
+document.addEventListener("DOMContentLoaded", function () {
 
-if (hamburger && navLinks) {
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("nav-links");
+
+    console.log("Hamburger:", hamburger);
+    console.log("Navigation:", navLinks);
+
+    if (!hamburger || !navLinks) {
+        console.error("Hamburger or navigation menu not found!");
+        return;
+    }
 
     hamburger.addEventListener("click", function () {
 
         navLinks.classList.toggle("active");
 
+        console.log("Menu clicked");
+        console.log("Menu classes:", navLinks.className);
+
     });
 
-
-    // Close menu when clicking a link
-
+    // Close menu when clicking a navigation link
     navLinks.querySelectorAll("a").forEach(function (link) {
 
         link.addEventListener("click", function () {
@@ -87,4 +96,4 @@ if (hamburger && navLinks) {
 
     });
 
-}
+});
