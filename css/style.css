@@ -4080,3 +4080,36 @@ box-shadow:
     transform: scale(1.15);
 
 }
+/* =====================================
+   POTENTIAL ASSESSMENT PDF LINK
+===================================== */
+
+.potential-link {
+
+    display: block;
+
+    margin-top: 20px;
+
+    color: #0077b6;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+
+.potential-link:hover {
+
+    color: #00b4d8;
+
+    transform: translateY(-2px);
+
+    text-decoration: underline;
+
+}
