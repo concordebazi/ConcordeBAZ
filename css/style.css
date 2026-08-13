@@ -3817,3 +3817,60 @@ box-shadow:
 
 
 }
+/* =====================================
+   LANGUAGE / FLAG SWITCHER
+===================================== */
+
+.language-switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.language-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px !important;
+    background: transparent;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.language-btn img {
+    width: 30px;
+    height: 20px;
+    object-fit: cover;
+    display: block;
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+
+.language-btn:hover {
+    background: rgba(255,255,255,0.15);
+}
+
+.language-btn:hover img {
+    transform: scale(1.12);
+}
+/* =====================================
+   MOBILE LANGUAGE SWITCHER
+===================================== */
+
+@media (max-width: 768px) {
+
+    .language-switch {
+        margin: 5px 0;
+    }
+
+    .language-btn {
+        display: inline-flex !important;
+        padding: 8px !important;
+    }
+
+    .language-btn img {
+        width: 32px;
+        height: 22px;
+    }
+
+}
