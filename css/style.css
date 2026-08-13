@@ -4156,3 +4156,15 @@ box-shadow:
     transform: translateY(-3px);
     box-shadow: 0 8px 18px rgba(0,0,0,0.2);
 }
+/* ==========================================
+   PROFESSIONAL PROJECTS PAGE
+========================================== */
+
+.projects-page-section {
+    background: #e8f1ee;
+    min-height: 100vh;
+}
+
+.projects-page-section h2 {
+    color: #003049;
+}
