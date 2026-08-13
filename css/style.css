@@ -3966,3 +3966,29 @@ box-shadow:
     }
 
 }
+/* =====================================
+   LANGUAGE FLAG ICON
+===================================== */
+
+.language-switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.language-btn {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 5px !important;
+    background: transparent;
+}
+
+.flag-icon {
+    display: block !important;
+    width: 32px !important;
+    height: 22px !important;
+    max-width: 32px !important;
+    max-height: 22px !important;
+    object-fit: contain;
+}
