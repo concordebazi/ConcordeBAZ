@@ -2272,7 +2272,56 @@ Map Engineer | Hydrographic Data Processing Specialist
  <script src="js/darkmode.js"></script>
  <script src="js/typing.js"></script> 
 <script src="js/script.js"></script>
+<script>
 
+/* =====================================
+   PROFILE IMAGE LIGHTBOX
+===================================== */
+
+const profileImage =
+    document.querySelector(".profile-lightbox");
+
+const profileModal =
+    document.getElementById("profileModal");
+
+const profileExpanded =
+    document.getElementById("profileExpanded");
+
+const profileClose =
+    document.querySelector(".profile-close");
+
+
+if (profileImage && profileModal) {
+
+    profileImage.addEventListener("click", function () {
+
+        profileModal.style.display = "flex";
+
+        profileExpanded.src = profileImage.src;
+
+    });
+
+
+    profileClose.addEventListener("click", function () {
+
+        profileModal.style.display = "none";
+
+    });
+
+
+    profileModal.addEventListener("click", function (e) {
+
+        if (e.target === profileModal) {
+
+            profileModal.style.display = "none";
+
+        }
+
+    });
+
+}
+
+</script>
 
 </body>
 
