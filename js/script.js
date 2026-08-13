@@ -93,7 +93,15 @@ document.addEventListener("DOMContentLoaded", function () {
             navLinks.classList.remove("active");
 
         });
+document.addEventListener("keydown", function (e) {
 
+    if (e.key === "Escape") {
+
+        profileModal.style.display = "none";
+
+    }
+
+});
     });
 
 });
