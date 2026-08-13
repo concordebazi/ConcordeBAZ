@@ -3943,3 +3943,26 @@ box-shadow:
     border-color: #90e0ef;
 
 }
+/* =====================================
+   MOBILE HERO LANGUAGE BUTTON
+===================================== */
+
+@media (max-width: 768px) {
+
+    .hero-language-switch {
+
+        margin-top: 25px;
+
+    }
+
+    .language-hero-btn {
+
+        min-width: 200px;
+
+        padding: 14px 25px;
+
+        font-size: 18px;
+
+    }
+
+}
