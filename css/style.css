@@ -4325,3 +4325,10 @@ box-shadow:
     font-size: 2rem;
     font-weight: bold;
 }
+.workflow-section > p {
+    color: #e6f7fa;
+    text-align: center;
+    font-weight: 700;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+}
