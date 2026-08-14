@@ -4556,16 +4556,21 @@ body section.summary-section .card p {
     font-size: 13px;
     font-weight: 600;
 }
-/* ============================= */
-/* ABOUT ME - SOFT BLUE BACKGROUND */
-/* ============================= */
+/* ==========================================
+ABOUT ME - SOFT BLUE BACKGROUND
+========================================== */
 
- background: #e6f0f5;
+#about {
+    background: #dbeaf1;
     border-radius: 18px;
     margin: 30px auto;
     padding: 60px 40px;
 }
 
-.dark #about {
-    background: #1d3039;
+#about h2 {
+    color: #003049;
+}
+
+#about p {
+    color: #212529;
 }
