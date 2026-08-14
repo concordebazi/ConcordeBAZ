@@ -4503,3 +4503,25 @@ body section.summary-section .card {
 body section.summary-section .card p {
     color: #ecfdf5 !important;
 }
+/* =========================
+   LANGUAGE FLAG
+========================= */
+
+.language-switch {
+    display: flex;
+    align-items: center;
+}
+
+.language-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.language-flag {
+    width: 30px;
+    height: 20px;
+    display: block;
+    object-fit: contain;
+}
