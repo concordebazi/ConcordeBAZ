@@ -4648,3 +4648,25 @@ EDUCATION & PROFESSIONAL DEVELOPMENT
     }
 
 }
+/* ==========================================
+   CONTACT PAGE - CV DOWNLOAD SECTION
+========================================== */
+
+.back-home {
+    text-align: center;
+    margin-top: 20px;
+}
+
+section.dark {
+    text-align: center;
+}
+
+section.dark h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section.dark .btn {
+    display: inline-block;
+    margin: 10px;
+}
