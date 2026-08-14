@@ -4374,3 +4374,50 @@ box-shadow:
     color: #f3e8ff;
     font-weight: 600;
 }
+/* ==========================================
+   PROJECT GALLERY - SPECIAL BACKGROUND
+========================================== */
+
+section.gallery-section {
+    background: linear-gradient(
+        135deg,
+        #3b1f47 0%,
+        #5b2c6f 100%
+    ) !important;
+
+    color: white !important;
+
+    padding: 60px 30px;
+
+    border-radius: 20px;
+
+    margin: 50px 0;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+section.gallery-section h2 {
+    color: white !important;
+}
+
+section.gallery-section > .gallery {
+    background: transparent;
+}
+
+section.gallery-section .gallery-item {
+    background: rgba(255, 255, 255, 0.10) !important;
+
+    border: 1px solid rgba(255, 255, 255, 0.20);
+
+    border-radius: 15px;
+
+    padding: 15px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+}
+
+section.gallery-section .gallery-item p {
+    color: #f3e8ff !important;
+
+    font-weight: 600;
+}
