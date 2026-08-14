@@ -4744,3 +4744,23 @@ section.dark .btn {
     display: inline-block;
     margin: 10px;
 }
+/* ==========================================
+   TECHNICAL SKILLS & EXPERTISE
+   DARK BACKGROUND
+========================================== */
+
+#skills {
+    background: #003049 !important;
+    color: white;
+    border-radius: 18px;
+    margin: 30px auto;
+    padding: 60px 40px;
+}
+
+#skills h2 {
+    color: #caf0f8 !important;
+}
+
+#skills p {
+    color: #ffffff;
+}
