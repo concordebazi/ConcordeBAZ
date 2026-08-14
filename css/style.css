@@ -4168,3 +4168,18 @@ box-shadow:
 .projects-page-section h2 {
     color: #abbac9;
 }
+/* ==========================================
+   FEATURED PROFESSIONAL PROJECTS
+========================================== */
+
+#featured-projects {
+    background: #e8f1ee;
+}
+
+#featured-projects h2 {
+    color: #003049;
+}
+
+#featured-projects .section-intro {
+    color: #405a5c;
+}
