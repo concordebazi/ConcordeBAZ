@@ -4574,3 +4574,17 @@ ABOUT ME - SOFT BLUE BACKGROUND
 #about p {
     color: #212529;
 }
+/* ==========================================
+EDUCATION & PROFESSIONAL DEVELOPMENT
+========================================== */
+
+#education {
+    background: #e3edf2;
+    border-radius: 18px;
+    margin: 30px auto;
+    padding: 60px 40px;
+}
+
+#education h2 {
+    color: #003049;
+}
