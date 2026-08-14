@@ -4525,3 +4525,34 @@ body section.summary-section .card p {
     display: block;
     object-fit: contain;
 }
+/* ============================= */
+/* LANGUAGE FLAG - NAVIGATION */
+/* ============================= */
+
+.language-switch {
+    display: flex;
+    align-items: center;
+}
+
+.language-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    padding: 5px 8px;
+}
+
+.language-flag {
+    width: 28px !important;
+    height: 18px !important;
+    display: block !important;
+    object-fit: cover;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.language-btn span {
+    color: inherit;
+    font-size: 13px;
+    font-weight: 600;
+}
