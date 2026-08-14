@@ -4262,3 +4262,66 @@ box-shadow:
 .workflow-section p {
     color: #e6f7fa;
 }
+/* ==========================================
+   HYDROGRAPHIC PROCESSING WORKFLOW
+========================================== */
+
+.workflow-section {
+    background: linear-gradient(
+        135deg,
+        #003049,
+        #005f73
+    );
+
+    color: white;
+
+    padding: 60px 30px;
+
+    border-radius: 20px;
+
+    margin: 50px 0;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.workflow-section h2 {
+    color: white;
+}
+
+.workflow-section > p {
+    color: #e6f7fa;
+}
+
+
+/* Workflow cards */
+
+.workflow-section .workflow-step {
+    background: rgba(255, 255, 255, 0.10);
+
+    border: 1px solid rgba(255, 255, 255, 0.20);
+
+    color: white;
+
+    border-radius: 15px;
+
+    padding: 25px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+}
+
+.workflow-section .workflow-step h3 {
+    color: white;
+}
+
+.workflow-section .workflow-step p {
+    color: #e6f7fa;
+}
+
+
+/* Workflow arrows */
+
+.workflow-section .workflow-arrow {
+    color: #7dd3fc;
+    font-size: 2rem;
+    font-weight: bold;
+}
