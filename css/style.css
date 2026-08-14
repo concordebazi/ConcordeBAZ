@@ -4557,11 +4557,11 @@ body section.summary-section .card p {
     font-weight: 600;
 }
 /* ============================= */
-/* ABOUT ME - SOFT BACKGROUND */
+/* ABOUT ME - SOFT BLUE BACKGROUND */
 /* ============================= */
 
 #about {
-    background: #f5f9fb;
+    background: #e6f0f5;
     border-radius: 18px;
     margin: 30px auto;
     padding: 60px 40px;
