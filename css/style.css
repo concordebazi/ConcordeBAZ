@@ -4588,3 +4588,63 @@ EDUCATION & PROFESSIONAL DEVELOPMENT
 #education h2 {
     color: #003049;
 }
+/* ==========================================
+   CINEMATIC HERO BACKGROUND
+   ========================================== */
+
+.hero {
+    position: relative;
+    overflow: hidden;
+
+    background: #003049;
+}
+
+/* Animated background image */
+
+.hero::before {
+    content: "";
+
+    position: absolute;
+    top: -5%;
+    left: -5%;
+
+    width: 110%;
+    height: 110%;
+
+    background:
+        linear-gradient(
+            rgba(0, 48, 73, 0.62),
+            rgba(0, 119, 182, 0.62)
+        ),
+        url("../images/hero-cinematic.jpg")
+        center center / cover no-repeat;
+
+    z-index: 0;
+
+    animation: heroZoom 18s ease-in-out infinite alternate;
+}
+
+/* Keep your text above the image */
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+/* Slow cinematic zoom */
+
+@keyframes heroZoom {
+
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.06);
+    }
+
+    100% {
+        transform: scale(1.12);
+    }
+
+}
