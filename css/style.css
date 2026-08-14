@@ -4556,3 +4556,13 @@ body section.summary-section .card p {
     font-size: 13px;
     font-weight: 600;
 }
+/* ============================= */
+/* ABOUT ME - SOFT BACKGROUND */
+/* ============================= */
+
+#about {
+    background: #f3f7f9;
+    border-radius: 18px;
+    margin: 30px auto;
+    padding: 60px 40px;
+}
