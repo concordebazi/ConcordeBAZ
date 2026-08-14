@@ -4462,3 +4462,44 @@ section.summary-section .card {
 section.summary-section .card p {
     color: #ecfdf5 !important;
 }
+/* ==========================================
+   SAMMANFATTNING - SPECIAL BACKGROUND
+========================================== */
+
+body section.summary-section {
+    background: linear-gradient(
+        135deg,
+        #064e3b 0%,
+        #047857 100%
+    ) !important;
+
+    color: #ffffff !important;
+
+    padding: 60px 30px !important;
+
+    border-radius: 20px !important;
+
+    margin: 50px 0 !important;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25) !important;
+}
+
+body section.summary-section h2 {
+    color: #ffffff !important;
+}
+
+body section.summary-section .card {
+    background: rgba(255, 255, 255, 0.10) !important;
+
+    color: #ffffff !important;
+
+    border: 1px solid rgba(255, 255, 255, 0.20) !important;
+
+    border-radius: 15px !important;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20) !important;
+}
+
+body section.summary-section .card p {
+    color: #ecfdf5 !important;
+}
