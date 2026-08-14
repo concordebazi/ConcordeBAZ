@@ -2191,6 +2191,80 @@ color:#005f73;
 
 }
 /* ==========================================
+   TECHNICAL TOOLBOX - DARK BACKGROUND
+========================================== */
+
+#technical-toolbox {
+    background: linear-gradient(
+        135deg,
+        #001f2e,
+        #003049
+    );
+
+    color: white;
+
+    border-radius: 20px;
+
+    margin: 50px auto;
+
+    padding: 60px 40px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+
+/* Section title */
+
+#technical-toolbox h2 {
+    color: #caf0f8;
+}
+
+
+/* Toolbox cards */
+
+#technical-toolbox .toolbox-card {
+    background: rgba(255,255,255,0.10);
+
+    color: white;
+
+    border: 1px solid rgba(255,255,255,0.20);
+
+    border-top: 5px solid #00b4d8;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+
+    transition: all 0.3s ease;
+}
+
+
+/* Card titles */
+
+#technical-toolbox .toolbox-card h3 {
+    color: #90e0ef;
+}
+
+
+/* Hover */
+
+#technical-toolbox .toolbox-card:hover {
+    transform: translateY(-8px);
+
+    background: rgba(255,255,255,0.15);
+
+    box-shadow: 0 15px 35px rgba(0,0,0,0.35);
+}
+
+
+/* Tool tags */
+
+#technical-toolbox .tool-tags span {
+    background: rgba(0,180,216,0.15);
+
+    color: #caf0f8;
+
+    border: 1px solid rgba(144,224,239,0.3);
+}
+/* ==========================================
    EDUCATION SECTION
 ========================================== */
 
