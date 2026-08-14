@@ -4234,3 +4234,31 @@ box-shadow:
     transform: translateY(-8px);
     box-shadow: 0 15px 30px rgba(0,0,0,0.40);
 }
+/* =========================
+   HYDROGRAPHIC WORKFLOW
+   ========================= */
+
+.workflow-section {
+    background: linear-gradient(
+        135deg,
+        #003049,
+        #005f73
+    );
+
+    color: white;
+
+    padding: 60px 30px;
+    border-radius: 20px;
+
+    margin: 50px 0;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.workflow-section h2 {
+    color: white;
+}
+
+.workflow-section p {
+    color: #e6f7fa;
+}
