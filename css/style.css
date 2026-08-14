@@ -4421,3 +4421,44 @@ section.gallery-section .gallery-item p {
 
     font-weight: 600;
 }
+/* ==========================================
+   PROFESSIONAL SUMMARY
+========================================== */
+
+section.summary-section {
+    background: linear-gradient(
+        135deg,
+        #064e3b 0%,
+        #047857 100%
+    ) !important;
+
+    color: white !important;
+
+    padding: 60px 30px;
+
+    border-radius: 20px;
+
+    margin: 50px 0;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+section.summary-section h2 {
+    color: white !important;
+}
+
+section.summary-section .card {
+    background: rgba(255, 255, 255, 0.10) !important;
+
+    border: 1px solid rgba(255, 255, 255, 0.20);
+
+    color: white;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+}
+
+section.summary-section .card p {
+    color: #ecfdf5 !important;
+}
