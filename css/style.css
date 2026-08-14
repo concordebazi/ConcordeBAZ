@@ -4183,3 +4183,23 @@ box-shadow:
 #featured-projects .section-intro {
     color: #405a5c;
 }
+/* ==========================================
+   KOMPETENSER / SKILLS CARDS
+========================================== */
+
+.skills-container .skill-box {
+    background: #e8f1ee;
+    color: #212529;
+    border-top: 5px solid #2a9d8f;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    transition: 0.3s ease;
+}
+
+.skills-container .skill-box h3 {
+    color: #003049;
+}
+
+.skills-container .skill-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.18);
+}
