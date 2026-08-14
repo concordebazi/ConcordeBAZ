@@ -4746,21 +4746,29 @@ section.dark .btn {
 }
 /* ==========================================
    TECHNICAL SKILLS & EXPERTISE
-   DARK BACKGROUND
+   CARD TEXT FIX
 ========================================== */
 
-#skills {
-    background: #003049 !important;
-    color: black;
-    border-radius: 18px;
-    margin: 30px auto;
-    padding: 60px 40px;
+#skills .skill-card {
+    background: #e8f1ee;
+    color: #212529;
+    border-top: 5px solid #2a9d8f;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.30);
 }
 
-#skills h2 {
-    color: #caf0f8 !important;
+#skills .skill-card h3 {
+    color: #003049;
 }
 
-#skills p {
-    color: #ffffff;
+#skills .skill-card li {
+    color: #212529;
+}
+
+#skills .skill-card p {
+    color: #212529;
+}
+
+#skills .skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.40);
 }
