@@ -4772,3 +4772,21 @@ section.dark .btn {
     transform: translateY(-10px);
     box-shadow: 0 15px 35px rgba(0,0,0,0.40);
 }
+.back-welcome {
+    display: inline-block;
+    margin: 15px 20px;
+    padding: 8px 16px;
+    background: #003049;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.back-welcome:hover {
+    background: #f4c542;
+    color: #003049;
+    transform: translateX(-3px);
+}
