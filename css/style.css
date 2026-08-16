@@ -2342,10 +2342,7 @@ font-weight:500;
     font-weight: 400;
     cursor: default;
 }
-.education-tags span:not(:last-child)::after {
-    content: " • ";
-    margin: 0 6px;
-}
+
 /* ==========================================
    UNIVERSITY LOGOS
 ========================================== */
