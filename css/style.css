@@ -2164,31 +2164,19 @@ color:#0077b6;
 
 
 .tool-tags{
-
-display:flex;
-
-flex-wrap:wrap;
-
-gap:10px;
-
+    display:block;
+    line-height:1.9;
 }
 
 
 
 .tool-tags span{
-
-background:#eef7fb;
-
-padding:8px 14px;
-
-border-radius:20px;
-
-font-size:.9rem;
-
-font-weight:600;
-
-color:#005f73;
-
+    background:none;
+    padding:0;
+    border-radius:0;
+    font-size:.95rem;
+    font-weight:400;
+    color:inherit;
 }
 /* ==========================================
    TECHNICAL TOOLBOX - DARK BACKGROUND
@@ -2258,11 +2246,12 @@ color:#005f73;
 /* Tool tags */
 
 #technical-toolbox .tool-tags span {
-    background: rgba(0,180,216,0.15);
-
+    background: none;
     color: #caf0f8;
-
-    border: 1px solid rgba(144,224,239,0.3);
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    font-weight: 400;
 }
 /* ==========================================
    EDUCATION SECTION
