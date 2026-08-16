@@ -2324,34 +2324,27 @@ font-weight:500;
 
 
 
-.education-tags{
-
-display:flex;
-
-flex-wrap:wrap;
-
-gap:10px;
-
-margin-top:20px;
-
+.education-tags {
+    display: block;
+    line-height: 1.9;
 }
 
 
 
-.education-tags span{
-
-background:#eef7fb;
-
-padding:8px 14px;
-
-border-radius:20px;
-
-font-size:.85rem;
-
-font-weight:600;
-
-color:#005f73;
-
+.education-tags span {
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    color: inherit;
+    font-size: .95rem;
+    font-weight: 400;
+    cursor: default;
+}
+.education-tags span:not(:last-child)::after {
+    content: " • ";
+    margin: 0 6px;
 }
 /* ==========================================
    UNIVERSITY LOGOS
