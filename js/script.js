@@ -105,3 +105,66 @@ document.addEventListener("keydown", function (e) {
     });
 
 });
+// =====================================
+// CONTACT FORM - BACKGROUND SUBMISSION
+// =====================================
+
+const contactForm = document.getElementById("contact-form");
+const formSuccess = document.getElementById("form-success");
+
+if (contactForm && formSuccess) {
+
+    contactForm.addEventListener("submit", async function (event) {
+
+        event.preventDefault();
+
+        const submitButton =
+            contactForm.querySelector("button[type='submit']");
+
+        submitButton.disabled = true;
+        submitButton.textContent = "📤 Sending...";
+
+        try {
+
+            const formData = new FormData(contactForm);
+
+            const response = await fetch(
+                contactForm.action,
+                {
+                    method: "POST",
+                    body: formData,
+                    headers: {
+                        "Accept": "application/json"
+                    }
+                }
+            );
+
+            if (response.ok) {
+
+                formSuccess.style.display = "block";
+
+                contactForm.reset();
+
+                submitButton.disabled = false;
+                submitButton.textContent = "📩 Send Message";
+
+            } else {
+
+                throw new Error("Form submission failed");
+
+            }
+
+        } catch (error) {
+
+            submitButton.disabled = false;
+            submitButton.textContent = "📩 Send Message";
+
+            alert(
+                "Sorry, there was a problem sending your message. Please try again."
+            );
+
+        }
+
+    });
+
+}
