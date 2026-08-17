@@ -4877,3 +4877,17 @@ section.dark .btn {
     font-weight: 600;
     text-align: center;
 }
+/* ==========================================
+   CONTACT FORM SUCCESS MESSAGE
+========================================== */
+
+.form-success {
+    display: none;
+    margin-top: 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background: #d4edda;
+    color: #155724;
+    font-weight: 600;
+    text-align: center;
+}
