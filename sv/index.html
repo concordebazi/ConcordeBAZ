@@ -2597,8 +2597,74 @@ Kartingenjör | Specialist inom hydrografisk databearbetning
 
 <script src="../js/script.js"></script>
 
+<script>
+
+// =====================================
+// CONTACT FORM - BACKGROUND SUBMISSION
+// =====================================
+
+const contactForm = document.getElementById("contact-form");
+const formSuccess = document.getElementById("form-success");
+
+if (contactForm && formSuccess) {
+
+    contactForm.addEventListener("submit", async function (event) {
+
+        event.preventDefault();
+
+        const submitButton =
+            contactForm.querySelector("button[type='submit']");
+
+        submitButton.disabled = true;
+        submitButton.textContent = "📤 Skickar...";
+
+        try {
+
+            const formData = new FormData(contactForm);
+
+            const response = await fetch(
+                contactForm.action,
+                {
+                    method: "POST",
+                    body: formData,
+                    headers: {
+                        "Accept": "application/json"
+                    }
+                }
+            );
+
+            if (response.ok) {
+
+                formSuccess.style.display = "block";
+
+                contactForm.reset();
+
+                submitButton.disabled = false;
+                submitButton.textContent = "📩 Skicka meddelande";
+
+            } else {
+
+                throw new Error("Form submission failed");
+
+            }
+
+        } catch (error) {
+
+            submitButton.disabled = false;
+            submitButton.textContent = "📩 Skicka meddelande";
+
+            alert(
+                "Tyvärr kunde meddelandet inte skickas. Försök igen."
+            );
+
+        }
+
+    });
+
+}
+
+</script>
 
 </body>
-
 
 </html>
